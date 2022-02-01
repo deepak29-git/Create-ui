@@ -1,50 +1,50 @@
 /* avatar css */
 .avatar-container{
     margin: auto;
-    width: 500px;
+    width: 31.25rem;
 }
 
 .box{
-    height:100px;
-    width: 500px;
+    height:6rem;
+    width: 31.25rem;
     background-color: rgb(228, 228, 228);
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:20px;
-    border-radius:5px;
+    gap:1.25rem;
+    border-radius:0.313rem;
 }
 
 /* image avatar */
 
 .avatar{
-    height:50px;
-    width:50px;
-    border-radius:999px;
+    height:3.125rem;
+    width:3.125rem;
+    border-radius:50%;
 }
 
 /* sizes avatar */
 
 .sm{
-    height:24px;
-    width: 24px;
+    height:1.5rem;
+    width: 1.5rem;
 }
 
 .md{
-    height:32px;
-    width: 32px;
+    height:2rem;
+    width: 2rem;
 }
 
 .lg{
-    height:48px;
-    width: 48px;
+    height:3rem;
+    width: 3rem;
 }
 
 
 /* square avatar */
 
 .square{
-    border-radius: 5px;
+    border-radius: 0.313rem;
 }
 
 
