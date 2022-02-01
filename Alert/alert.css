@@ -1,0 +1,30 @@
+/* alert css */
+.alert-container{
+    margin: auto;
+    width: 300px;
+}
+
+/* basic alert */
+
+.alert {
+    color: var(--white-color);
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius:5px;
+  }
+  
+  .alert-primary {
+    background-color: var(--primary-color);
+  }
+  
+  .alert-danger {
+    background-color: var(--danger-color);
+  }
+  
+  .alert-success {
+    background-color: var(--success-color);
+  }
+  .alert-warning {
+    background-color: var(--warning-color);
+  }
+  
