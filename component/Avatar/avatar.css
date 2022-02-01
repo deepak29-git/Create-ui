@@ -1,0 +1,50 @@
+/* avatar css */
+.avatar-container{
+    margin: auto;
+    width: 500px;
+}
+
+.box{
+    height:100px;
+    width: 500px;
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    border-radius:5px;
+}
+
+/* image avatar */
+
+.avatar{
+    height:50px;
+    width:50px;
+    border-radius:999px;
+}
+
+/* sizes avatar */
+
+.sm{
+    height:24px;
+    width: 24px;
+}
+
+.md{
+    height:32px;
+    width: 32px;
+}
+
+.lg{
+    height:48px;
+    width: 48px;
+}
+
+
+/* square avatar */
+
+.square{
+    border-radius: 5px;
+}
+
+
