@@ -1,0 +1,77 @@
+:root{
+    --primary-color: #6D28D9;
+    --secondary-color :#ccd7ec;
+    --danger-color:#fc5246;
+    --success-color:#4fb352;
+    --warning-color:#f5ad41;
+    --white-color:#fff;
+    --info-color:#3B82F6;
+    
+}
+
+
+/* alert css */
+.alert-container{
+    margin: auto;
+    width:31.25rem;
+    padding:1rem 2rem;
+    background-color: rgb(228, 228, 228);
+}
+
+/* basic alert */
+
+.alert {
+    color: var(--white-color);
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius:0.313rem;
+  }
+  
+  .primary-alert {
+    background-color: var(--primary-color);
+  }
+  
+  .danger-alert {
+    background-color: var(--danger-color);
+  }
+  
+  .success-alert {
+    background-color: var(--success-color);
+  }
+  .warning-alert {
+    background-color: var(--warning-color);
+  }
+  
+  /* outline alert */
+  .primary-outline {
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+  }
+  .danger-outline {
+    color: var(--danger-color);
+    border: 2px solid var(--danger-color);
+  }
+  .success-outline {
+    color: var(--success-color);
+    border: 2px solid var(--success-color);
+  }
+  .warning-outline {
+    color: var(--warning-color);
+    border: 2px solid var(--warning-color);
+  }
+  .info-outline {
+    color: var(--info-color);
+    border: 2px solid var(--info-color);
+  }
+
+  /* icon alert */
+
+  .icon{
+    height:2rem;
+    width:2rem;
+  }
+  .icon-alert{
+    display:flex;
+    align-items:center;
+    gap: 1rem;
+  }
