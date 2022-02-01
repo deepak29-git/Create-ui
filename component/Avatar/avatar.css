@@ -1,31 +1,52 @@
 /* avatar css */
 .avatar-container{
     margin: auto;
+<<<<<<< HEAD
     width: 500px;
 }
 
 .box{
     height:100px;
     width: 500px;
+=======
+    width: 31.25rem;
+}
+
+.box{
+    height:6rem;
+    width: 31.25rem;
+>>>>>>> a407be048854947c4ec11a53e7f88520d6a83401
     background-color: rgb(228, 228, 228);
     display: flex;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
     gap:20px;
     border-radius:5px;
+=======
+    gap:1.25rem;
+    border-radius:0.313rem;
+>>>>>>> a407be048854947c4ec11a53e7f88520d6a83401
 }
 
 /* image avatar */
 
 .avatar{
+<<<<<<< HEAD
     height:50px;
     width:50px;
     border-radius:999px;
+=======
+    height:3.125rem;
+    width:3.125rem;
+    border-radius:50%;
+>>>>>>> a407be048854947c4ec11a53e7f88520d6a83401
 }
 
 /* sizes avatar */
 
 .sm{
+<<<<<<< HEAD
     height:24px;
     width: 24px;
 }
@@ -38,13 +59,31 @@
 .lg{
     height:48px;
     width: 48px;
+=======
+    height:1.5rem;
+    width: 1.5rem;
+}
+
+.md{
+    height:2rem;
+    width: 2rem;
+}
+
+.lg{
+    height:3rem;
+    width: 3rem;
+>>>>>>> a407be048854947c4ec11a53e7f88520d6a83401
 }
 
 
 /* square avatar */
 
 .square{
+<<<<<<< HEAD
     border-radius: 5px;
+=======
+    border-radius: 0.313rem;
+>>>>>>> a407be048854947c4ec11a53e7f88520d6a83401
 }
 
 
