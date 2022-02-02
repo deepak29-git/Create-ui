@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+}
+form{
+    padding: 2rem;
+    background-color:grey;
+}
+
+.username-label{
+    color: white;
+}
+.input-group{
+    outline: none;
+    border:none;
+    padding:0.3rem 0.5rem;
+    width:400px;
+    display:block;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-size:14px;
+    border-radius:5px;
+    
+}
+
+.input-group:focus{
+    border:2px solid rgb(95, 95, 255);
+
+}
+
+
+
+.input-group.error:focus{
+    border: 2px solid red;
+
+}
+
+.error-msg,.password-label{
+    color: red;
+    font-size:14px;
+}
+label{
+    font-size:14px;
+}
+
+
+/* round input */
+.round-input{
+    border-radius: 25px;
+    padding: 0.7rem 1rem;
+    width: 20rem;
+    outline:none;
+    border: 2px solid rgb(33, 224, 238);
+    transition: all 0.2s;
+}
+.round-input:focus{
+    border: 5px solid rgb(33, 224, 238);
+    box-shadow: 1px 1px 5px  rgb(33, 224, 238);
+
+}
+
+.title{
+    text-align: center;
+}
+
+/* icon input */
+
+.search-icon{
+    height:2rem;
+    width:2rem;
+}
+
+.icon-input{
+    padding:1rem;
+    width:30rem;
+    outline:none;
+    border:1px solid black;
+}
+.icon-input:focus{
+    /* border:5px solid green; */
+    box-shadow: 1px 1px 5px blue;
+}
+
+.input-parent{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search-icon{
+    position: absolute;
+    right: 10px;
+}
+
+/* standard */
+
+.standard{
+    padding:1rem;
+    width:30rem;
+    outline:none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.standard:hover{
+    border-bottom: 3px solid black;
+}
+.standard:focus{
+    border-color: blue;
+}
