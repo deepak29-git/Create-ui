@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family:san-serif;
+  background-color: rgb(151, 151, 151);
+  font-family: sans-serif;
+  display:flex;
+  gap: 1rem;
+  margin: 1rem;
+  flex-wrap: wrap;
+}
+
+/* text only card */
+
+
+.card-background {
+  width:15.625rem;
+  background-color:white;
+  border-radius: 0.313rem;
+}
+
+.card-title{
+  margin-bottom:0.5rem;
+}
+.card-description{
+  margin-top:0.5rem;
+}
+.small-text{
+  color:grey;
+}
+
+
+/* card with dismiss */
+
+.card-background{
+  position: relative;
+}
+
+.badge-icon{
+  height:2.5rem;
+  width:2.5rem;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius:50%;
+}
+
+.badge-icon:hover{
+  background-color: rgb(226, 224, 224);
+}
+
+/* card with badge */
+.card-img{
+  width:15.625rem;
+  border-radius:5px;
+}
+
+.card-body{
+  margin-left: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+/* card with shadow */
+
+.shadow{
+  box-shadow: 10px 5px 2px rgb(247, 235, 235);
+}
+
+
+/* main container */
+.card__container {
+  display: flex;
+  justify-content: center;
+  margin-top:20px;
+  margin-left:20px;
+}
+
+.card__wrapper {
+  border-radius: 5px;
+  width: 380px;
+  background-color: white;
+}
+.card_background{
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.card_background:hover {
+  background-color:rgb(229, 226, 226)
+}
+.image {
+  width: 380px;
+  border-radius: 5px;
+  height: 200px;
+}
+.card__content,.footer {
+  padding-left: 20px;
+}
+.title{
+  padding-top:20px;
+  padding-bottom:8px;
+}
+
+.description {
+  margin: 1.5rem 0rem;
+}
+
+/* footer section */
+.footer {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+/* icons css */
+.icons {
+  margin-left: auto;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.icon {
+  height: 45px;
+  width: 45px;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+/* button css */
+.btn {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  background: none;
+  color: purple;
+  border: none;
+  padding: 0.5rem 0.4rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover,
+.icon:hover {
+  background-color: rgb(216, 215, 215);
+}
+
+
+/* utility */
+.margin {
+  margin-bottom:10px;
+}
+
+/* car with header */
+
+.header {
+padding:10px 0 10px 20px
+}
+
+
+
+/* basic with text over media */
+
+.text_media{
+  position: relative;
+  height:350px;
+}
+.header_content{
+  position: absolute;
+  top: 30%;
+  color: white;
+}
+
+
+
+/* small card */
+.small{
+  position: relative;
+  height:155px;
+}
+.small_image{
+  max-width:100px;
+  min-height:100px;
+}
+
+.small_header{
+  position: absolute;
+  top:10px;
+  left:33%;
+}
+
