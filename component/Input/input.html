@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+    <link rel="stylesheet" href="/component/Input/input.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form>
+            <div>
+                <label class="username-label">Username*</label>
+                <input class="input-group" name="username" type="text">
+            </div>
+            <div>
+                <label class="password-label">Password*</label>
+                <input class="input-group error" name="password" type="password">
+                <p class="error-msg">Wrong password try again</p>
+            </div>    
+        </form>
+    </div>
+    
+    <h2 class="title">Round Input</h2>
+        <div class="wrapper">
+            <input class="round-input" type="text">
+        </div>
+        <h2 class="title">Icon Input</h2>
+        <div class="wrapper">
+            <div class="input-parent">
+                <input class="icon-input" type="text">
+                <img class="search-icon" src="/component/Input/search-interface-symbol.png" alt="search.jpg">
+            </div>
+        </div>
+        <h3 class="title">Standard input</h3>
+        <div class="wrapper">
+            <input class="standard" type="text" placeholder="Standard">
+        </div>
+    </body>
+    
+</html>
