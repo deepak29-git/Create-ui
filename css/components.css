@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap');
+@import url('/css/utility.css');
+@import url('/css/reset.css');
+@import url('/css/variable.css');
+@import url('/component/Alert/alert.css');
+@import url('/component/Avatar/avatar.css');
+@import url('/component/Badge/badge.css');
+@import url('/component/Button/button.css');
+@import url('/component/Card/card.css'); 
+@import url('/component/Image/image.css'); 
+@import url('/css/main.css');
+@import url('/css/navbar.css');
+@import url('/css/sidebar.css');
+@import url('/get-started/introduction.css');
+
+
+
+
+
+
+
+/* common css for all component */
+/*show component  */
+
+.show-component{
+    padding: 2rem;
+    background-color:var(--secondary-color);
+    border-radius:5px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;;
+}
+
+.show-code{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* footer tab css */
+
+.links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.link-tab{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 0.5rem 1rem;
+}
+

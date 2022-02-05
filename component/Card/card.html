@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cards</title>
+    <link rel="stylesheet" href="/css/components.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+          <h1 class="logo-title black fs-2">Create <span class="header-ui">ui</span></h1>
+          <ul class="nav-list">
+              <li ><a class="item" href="/index.html">Home</a></li>
+              <li ><a class="item" href="/get-started/introduction.html">Docs</a></li>
+              <li><a href="https://www.linkedin.com/in/deepak-goyal-584157179/"><img class="icon" src="/assets/img/linkedin.png" alt=""></a></li>
+              <li><a href="https://github.com/deepak29-git/Create-ui"><img class="icon" src="/assets/img/twitter.png" alt=""></a></li>
+              <li><a href="https://twitter.com/deepak887180"><img class="icon" src="/assets/img/github.png" alt=""></a></li>
+          </ul>
+      </nav>
+  </header>
+      <!-- sidebar -->
+      <div class="intro-container mt-2 ">
+      <aside class="sidebar">
+          <h4 class="list-title mb-1 ml-1 mt-2">Components</h4>
+          <hr>
+          <ul class="list-group">
+                  <li class="list-item"><a class="component-link" href="/component/Avatar/avatar.html">Avatar</a></li>
+                  <li class="list-item"><a class="component-link" href="/component/Alert/alert.html">Alert</a></li>
+                  <li class="list-item"><a class="component-link" href="/component/Badge/badge.html">Bedge</a></li>
+                  <li class="list-item"><a class="component-link" href="/component/Button/button.html">Button</a></li>
+                  <li class="list-item"><a class="component-link active-tab" href="/component/Card/card.html">Card</a></li>
+                  <li class="list-item"><a class="component-link" href="/component/Image/image.html">Image</a></li>
+                  <li class="list-item"><a class="component-link" href="/component/Input/input.html">Input</a></li>
+              </ul>
+          </aside>
+ <!-- main section -->
+
+
+ <main class="main-container plr-1 mt-2">
+  <h1 class="mb-2">Cards</h1>
+  <p class="mb-2">Cards contain content and actions about a single subject.Create ui provides different variant of card.</p>
+  <hr class="mb-2">
+  
+  <section >
+      <p class="fs-3 black mb-2">Card with Badge</p>
+      <p class="mb-2">Card with badge are contains the badge on top of the image.You can ease to use this card by adding those classes.</p>
+      <section class="show-component mb-2 ">
+        <div class="card">
+          <div class="card-bg">
+            <img
+            class="card-img"
+            src="https://www.planetware.com/wpimages/2020/01/india-in-pictures-beautiful-places-to-photograph-gateway-of-india-mumbai.jpg"
+            alt="img"
+          />
+              <div class="card-body">
+                <h3 class="card-title">Title</h3>
+                <small class="card-subtitle">secondary text</small>
+                <p class="card-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem quis, </p>
+              </div>
+              <img class="badge-icon" src="/assets/img/like.png" alt="badge.png">
+            </div>
+          </div>
+        </section>  
+      <hr class="mb-2">  
+      <iframe
+      src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-background%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522image-url%2522%2520alt%253D%2522img%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-title%2522%253ETitle%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522card-subtitle%2522%253Esecondary%2520text%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253ELorem%2520ipsum%252C%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Voluptatem%2520quis%252C%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-icon%2522%2520src%253D%2522%252Ficon-url%2522%2520alt%253D%2522icon-url%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520"
+      style="width: 1024px; height: 335px; border:0; transform: scale(1); overflow:hidden;"
+      sandbox="allow-scripts allow-same-origin">
+    </iframe>
+
+  <section>
+      <p class="semibold fs-3 mb-2">Card with dismiss</p>
+      <p class="mb-2">Card with dismiss contain ths cross icon on top of the card which is used for many places.</p>
+      <section class="show-component mb-2">
+        <div class="card">
+          <div class="card-bg">
+            <div class="card-body">
+              <h3 class="card-title">Title</h3>
+              <small class="small-text">secondary text</small>
+              <p class="card-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem quis, expedita ab saepe voluptatum ut ad sequi, quasi dolores enim animi fugit nostrum autem quaerat libero doloremque! Impedit, asperiores dolores.</p>
+              <img class="badge-icon" src="/assets/img/close.png" alt="badge.png">
+            </div>
+          </div>
+        </div> 
+        </section>
+        <div class="mb-2">
+          <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2520%2509%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-bg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-title%2522%253ETitle%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522small-text%2522%253Esecondary%2520text%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253ELorem%2520ipsum%252C%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Voluptatem%2520quis%252C%2520expedita%2520ab%2520saepe%2520voluptatum%2520ut%2520ad%2520sequi%252C%2520quasi%2520dolores%2520enim%2520animi%2520fugit%2520nostrum%2520autem%2520quaerat%2520libero%2520doloremque%21%2520Impedit%252C%2520asperiores%2520dolores.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-icon%2522%2520src%253D%2522%252Fcross-icon-url%2522%2520alt%253D%2522cross-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520"
+          style="width: 1024px; height: 362px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </div>
+      <hr class="mb-2">
+        <p class="semibold fs-3 mb-2">Cards with text overlay</p>
+        <p class="mb-2">Card with text overlay show the text over image with buttons and icons. You need to put those classes and use it.</p>
+        <div class="show-component mb-2">
+          <div class="card__wrapper text_media">
+            <div class="card_background">
+              <div class="image_container">
+                <img
+                class="card-image"
+                src="https://www.planetware.com/wpimages/2020/01/india-in-pictures-beautiful-places-to-photograph-gateway-of-india-mumbai.jpg"
+                alt="img"
+                />
+              </div>
+              <div class="card__content">
+                <div class="header_content">
+                  <h3 class="margin">Our Changing Planet</h3>
+                  <p class="small_content">by Kurt Wagner</p>
+                </div>
+                <p class="description">
+                  Visit ten places on our planet that are undergoing the biggest
+                  changes today.
+                </p>
+              </div>
+            </div>
+            <footer class="footer">
+              <button class="card-btn">READ</button>
+              <button class="card-btn">BOOKMARK</button>
+            <div class="icons">
+              <img class="card-icon" src="/assets/img/like.png" alt="like" />
+              <img class="card-icon" src="/assets/img/share.png" alt="share" />
+              <img class="card-icon" src="/assets/img/three-dot.png" alt="three-dot" />
+            </div>
+          </footer>
+          </div>
+        </div>
+        <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=646&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2509%253Cdiv%2520class%253D%2522card__wrapper%2520text_media%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card_background%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522card-image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522%252Fimage-url%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522img%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card__content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header_content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522margin%2522%253EOur%2520Changing%2520Planet%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522small_content%2522%253Eby%2520Kurt%2520Wagner%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Visit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520%2509%2509%2509%2509%2509biggest%2520changes%2520today.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfooter%2520class%253D%2522footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253EREAD%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253EBOOKMARK%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-icon%2522%2520src%253D%2522.%252Fimage-url%2522%2520alt%253D%2522image-url%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-icon%2522%2520src%253D%2522.%252Fimage-url%2522%2520alt%253D%2522image-url%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-icon%2522%2520src%253D%2522.%252Fimage-url%2522%2520alt%253D%2522image-url%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffooter%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+        style="width: 100%; height: 615px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+   
+      <hr class="mb-2 mt-2"> 
+        <p class="semibold fs-3 mb-2">Text only cards</p>
+        <p class="mb-2">Text only card are contain only text in the card.</p>
+      
+        <div class="show-component mb-2">
+          <div class="card">
+          <div class="card-bg">
+              <div class="card-body">
+                <h3 class="card-title">Title</h3>
+                <small class="card-subtitle">secondary text</small>
+                <p class="card-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem quis, </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=646&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2509%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-bg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-title%2522%253ETitle%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522card-subtitle%2522%253Esecondary%2520text%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253ELorem%2520ipsum%252C%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Voluptatem%2520quis%252C%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+          style="width: 100%; height: 243px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+      </iframe>
+     
+      <hr class="mb-2 mt-2"> 
+
+        <p class="semibold fs-3 mb-2">Horizontal Card</p>
+        <p class="mb-2">Horizontal card contains the text on left side of the image with icons and buttons.</p>
+      
+        <section class="show-component mb-2">
+            <div class="card__wrapper small">
+              <div class="card_background">  
+                  <img
+                  class="small_image"
+                  src="https://www.planetware.com/wpimages/2020/01/india-in-pictures-beautiful-places-to-photograph-gateway-of-india-mumbai.jpg"
+                  alt="img"
+                  />
+                  <div class="small_header">
+                    <h3 class="title">Our Changing Planet</h3>
+                    <p class="small_content">by Kurt Wagner</p>
+                  </div>
+              </div>
+              <footer class="footer">
+                <button class="card-btn">READ</button>
+                <button class="card-btn">BOOKMARK</button>
+                <div class="icons">
+                  <img class="card-icon" src="/assets/img/like.png" alt="like" />
+                  <img class="card-icon" src="/assets/img/share.png" alt="share" />
+                  <img class="card-icon" src="/assets/img/three-dot.png" alt="three-dot" />
+                </div>
+              </footer>
+            </div>
+        </section>
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=710&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2509%253Cdiv%2520class%253D%2522card__wrapper%2520small%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card_background%2522%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522small_image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522%252Fimage-url%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522img%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522small_header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522title%2522%253EOur%2520Changing%2520Planet%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522small_content%2522%253Eby%2520Kurt%2520Wagner%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfooter%2520class%253D%2522footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253EREAD%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253EBOOKMARK%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-icon%2522%2520src%253D%2522%252Fimage-url%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-icon%2522%2520src%253D%2522%252Fimage-url%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-icon%2522%2520src%253D%2522%252Fimage-url%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffooter%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+          style="width: 100%; height: 466px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+      </iframe>
+
+      <hr class="mb-2 mt-2"> 
+
+        <p class="semibold fs-3 mb-2">Ecommerce Card</p>
+        <p class="mb-2">Ecommerce Card can be used to your ecommerce project by putting those classes.The badges are optional.</p>
+      
+        <section class="show-component mb-2">
+          <div class="ecom-card">
+                <div class="product-image">
+                  <img class="image" src="/assets/img/apple.jpg" alt="">    
+                </div>
+                <div class="card-content">
+
+                  <div class="card-title">MOTOROLA E7 Power(Tahiti Blue, 64GB)</div>
+                  <div class="product-details">
+                    <span>
+                      <img class="rating" src="/assets/img/star.png" alt="star.png">
+                      <img class="rating" src="/assets/img/star.png" alt="star.png">
+                      <img class="rating" src="/assets/img/star.png" alt="star.png">
+                      <img class="rating" src="/assets/img/star.png" alt="star.png">
+                      <img class="rating" src="/assets/img/blank-star.png" alt="star.png">
+                  </span>
+                </div>
+                <div class="price">
+                  <span class="price-now">₹8,999</span>
+                  <span class="price-before">₹11,999</span>
+                  <span class="discount">25% off</span>
+                </div>
+                <div class="like">
+                  <img src="/assets/img/like.png" alt="like.png">
+                </div>
+                <div class="new">
+                  <img src="/assets/img/new.png" alt="new.png">
+                </div>
+                <div>
+                  <button class="add-to-cart">ADD TO CART</button>
+                </div>
+              </div>
+            </div>
+        </section>
+       
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2509%253Cdiv%2520class%253D%2522ecom-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image%2522%2520src%253D%2522%252Fimage-url%2522%2520alt%253D%2522%2522%253E%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253EMOTOROLA%2520E7%2520Power%28Tahiti%2520Blue%252C%252064GB%29%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522rating%2522%2520src%253D%2522%252Fimage-url%2522%2520alt%253D%2522image-url%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522rating%2522%2520src%253D%2522%252Fimage-url%2522%2520alt%253D%2522image-url%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522rating%2522%2520src%253D%2522%252Fimage-url%2522%2520alt%253D%2522image-url%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522rating%2522%2520src%253D%2522%252Fimage-url%2522%2520alt%253D%2522image-url%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522rating%2522%2520src%253D%2522%252Fimage-url%2522%2520alt%253D%2522image-url%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price-now%2522%253E%25E2%2582%25B98%252C999%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price-before%2522%253E%25E2%2582%25B911%252C999%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E25%2525%2520off%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522like%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimage-url%2522%2520alt%253D%2522like.png%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522new%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimage-url%2522%2520alt%253D%2522new.png%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522add-to-cart%2522%253EADD%2520TO%2520CART%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+          style="width: 100%; height: 653px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+      </iframe>
+          <hr class="mb-2 mt-2"> 
+          <p class="semibold fs-3 mb-2 ">Card with Shadow</p>
+        <p class="mb-2"></p>
+      
+        <section class="show-component mb-2">
+          <div class="card shadow">
+            <div class="card-bg">
+              <img
+              class="card-img"
+              src="https://www.planetware.com/wpimages/2020/01/india-in-pictures-beautiful-places-to-photograph-gateway-of-india-mumbai.jpg"
+              alt="img"
+            />
+                <div class="card-body">
+                  <h3 class="card-title">Title</h3>
+                  <small class="small-text">secondary text</small>
+                  <p class="card-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem quis, </p>
+                </div>
+              <img class="badge-icon" src="/assets/img/share.png" alt="badge.png">
+            </div>
+        </section>
+       
+     
+          <hr class="mb-2 mt-2"> 
+          <p class="semibold fs-3 mb-2">Card with Header</p>
+          <p class="mb-2"></p>
+
+          <section class="show-component mb-2">
+            <div class="card__container">
+              <div class="card__wrapper">
+                <div class="card-header">
+                  <h3 class="title">Our Changing Planet</h3>
+                  <p class="small_content">by Kurt Wagner</p>
+              </div>
+                <div class="card_background">
+                <div class="image_container">
+                  <img
+                    class="card-image"
+                    src="https://www.planetware.com/wpimages/2020/01/india-in-pictures-beautiful-places-to-photograph-gateway-of-india-mumbai.jpg"
+                    alt="img"
+                  />
+                </div>
+                <div class="card__content margin">
+                  <p class="description">
+                    Visit ten places on our planet that are undergoing the biggest
+                    changes today.
+                  </p>     
+                </div>
+              </div>
+                <footer class="footer">
+                  <button class="card-btn">READ</button>
+                  <button class="card-btn">BOOKMARK</button>
+                  <div class="icons">
+                    <img class="card-icon" src="/assets/img/like.png" alt="" />
+                    <img class="card-icon" src="/assets/img/share.png" alt="" />
+                    <img class="card-icon" src="/assets/img/three-dot.png" alt="" />
+                  </div>
+                </footer>
+              </div>
+            </div> 
+          </section>
+         
+       
+            <hr class="mb-2 mt-2">
+            <p class="semibold fs-3 mb-2">Card with only Button</p>
+            <p class="mb-2"></p>
+            <section class="show-component mb-2">
+              <div class="card__container">
+                <div class="card__wrapper">
+                  <div class="card_background">
+                    
+                    <div class="image_container">
+                      <img
+                        class="card-image"
+                        src="https://www.planetware.com/wpimages/2020/01/india-in-pictures-beautiful-places-to-photograph-gateway-of-india-mumbai.jpg"
+                        alt="img"
+                      />
+                    </div>
+                    <div class="card__content">
+                      <div class="header_with_btn">
+                        <h3 class="title">Our Changing Planet</h3>
+                        <p class="small_content">by Kurt Wagner</p>
+                    </div>
+                      <p class="description">
+                        Visit ten places on our planet that are undergoing the biggest
+                        changes today.
+                      </p>
+                  </div>
+                  </div>
+                <footer class="footer">
+                  <button class="card-btn">READ</button>
+                  <button class="card-btn">BOOKMARK</button>
+                </div>
+              </footer>
+              </div>
+            </section>
+
+         
+              <hr class="mb-2 mt-2">
+
+              <p class="semibold fs-3 mb-2">Card with only Icon</p>
+            <p class="mb-2"></p>
+            <section class="show-component mb-2">
+              <div class="card__container">
+                <div class="card__wrapper">
+                  <div class="card_background">
+                    <div class="image_container">
+                      <img
+                        class="card-image"
+                        src="https://www.planetware.com/wpimages/2020/01/india-in-pictures-beautiful-places-to-photograph-gateway-of-india-mumbai.jpg"
+                        alt="img"
+                      />
+                    </div>
+                    <div class="card__content">
+                      <div class="header_with_icon">
+                        <h3 class="title">Our Changing Planet</h3>
+                        <p class="small_content">by Kurt Wagner</p>
+                    </div>
+                      <p class="description">
+                        Visit ten places on our planet that are undergoing the biggest
+                        changes today.
+                      </p>
+              
+                    </div>
+                  </div>
+                  <footer class="footer">
+                    <div class="icons">
+                      <img class="card-icon" src="/assets/img/like.png" alt="" />
+                      <img class="card-icon" src="/assets/img/share.png" alt="" />
+                      <img class="card-icon" src="/assets/img/three-dot.png" alt="" />
+                    </div>
+                  </footer>
+                </div>
+              </div> 
+            </section>
+              
+         
+              <hr class="mb-2 mt-2">
+
+  <div class="links mb-2">
+    <a class="link-tab" href="/component/Button/button.html"><span class="arrow"><</span>Button</a>
+      <a class="link-tab" href="/component/Image/image.html">Image<span class="arrow">></span> </a>
+  </div>
+</main>
+
+
+
+
+
+    <!-- text only card -->
+    <!-- <div class="card">
+      <div class="card-background">
+        <div class="card-body">
+          <h3 class="card-title">Title</h3>
+          <small class="small-text">secondary text</small>
+          <p class="card-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem quis, expedita ab saepe voluptatum ut ad sequi, quasi dolores enim animi fugit nostrum autem quaerat libero doloremque! Impedit, asperiores dolores.</p>
+        </div>
+        </div>
+    </div> -->
+    <!-- card with dismiss -->
+    <!-- <div class="card">
+      <div class="card-background">
+        <div class="card-body">
+          <h3 class="card-title">Title</h3>
+          <small class="small-text">secondary text</small>
+          <p class="card-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem quis, expedita ab saepe voluptatum ut ad sequi, quasi dolores enim animi fugit nostrum autem quaerat libero doloremque! Impedit, asperiores dolores.</p>
+          <img class="badge-icon" src="/component/Card/icon/close.png" alt="badge.png">
+        </div>
+      </div>
+    </div> -->
+    <!-- card with badge -->
+    <!-- <div class="card">
+      <div class="card-background">
+        <img
+        class="card-img"
+        src="https://www.planetware.com/wpimages/2020/01/india-in-pictures-beautiful-places-to-photograph-gateway-of-india-mumbai.jpg"
+        alt="img"
+      />
+          <div class="card-body">
+            <h3 class="card-title">Title</h3>
+            <small class="small-text">secondary text</small>
+            <p class="card-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem quis, </p>
+          </div>
+        <img class="badge-icon" src="/component/Card/icon/like.png" alt="badge.png">
+      </div>
+    </div> -->
+    <!-- card with shadow -->
+
+    <!-- <div class="card ">
+      <div class="card-background shadow">
+        <img
+        class="card-img"
+        src="https://www.planetware.com/wpimages/2020/01/india-in-pictures-beautiful-places-to-photograph-gateway-of-india-mumbai.jpg"
+        alt="img"
+      />
+          <div class="card-body">
+            <h3 class="card-title">Title</h3>
+            <small class="small-text">secondary text</small>
+            <p class="card-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem quis, </p>
+          </div>
+        <img class="badge-icon" src="/component/Card/icon/share.png" alt="badge.png">
+      </div> -->
+    </div>
+
+
+
+
+    <!-- basic card -->
+    <!-- <div class="card__container">
+      <div class="card__wrapper">
+        <div class="card_background">
+          <img
+          class="image"
+          src="https://www.planetware.com/wpimages/2020/01/india-in-pictures-beautiful-places-to-photograph-gateway-of-india-mumbai.jpg"
+          alt="img"
+        />
+        <div class="card__content">
+          <h3 class="title">Our Changing Planet</h3>
+          <p class="small_content">by Kurt Wagner</p>
+          <p class="description">
+            Visit ten places on our planet that are undergoing the biggest
+            changes today.
+          </p>
+        </div>
+        </div>
+       
+        <footer class="footer">
+          <button class="btn">READ</button>
+          <button class="btn">BOOKMARK</button>
+          <div class="icons">
+            <img class="icon" src="./icon/like.png" alt="" />
+            <img class="icon" src="./icon/share.png" alt="" />
+            <img class="icon" src="./icon/three-dot.png" alt="" />
+          </div>
+        </footer>
+      </div>
+      </div> -->
+      
+    
+<br>
+<!-- basic with text over media -->
+    <!-- <div class="card__container">
+      <div class="card__wrapper text_media">
+        <div class="card_background">
+          <div class="image_container">
+            <img
+            class="image"
+            src="https://www.planetware.com/wpimages/2020/01/india-in-pictures-beautiful-places-to-photograph-gateway-of-india-mumbai.jpg"
+            alt="img"
+            />
+          </div>
+          <div class="card__content">
+            <div class="header_content">
+              <h3 class="margin">Our Changing Planet</h3>
+              <p class="small_content">by Kurt Wagner</p>
+            </div>
+            <p class="description">
+              Visit ten places on our planet that are undergoing the biggest
+              changes today.
+            </p>
+          </div>
+           
+        </div>
+        <footer class="footer">
+          <button class="btn">READ</button>
+        <button class="btn">BOOKMARK</button>
+        <div class="icons">
+          <img class="icon" src="./icon/like.png" alt="" />
+          <img class="icon" src="./icon/share.png" alt="" />
+          <img class="icon" src="./icon/three-dot.png" alt="" />
+        </div>
+      </footer>
+      </div>
+    </div> -->
+    <br>
+<!-- card with header -->
+    <!-- <div class="card__container">
+      <div class="card__wrapper">
+        <div class="header">
+          <h3 class="title">Our Changing Planet</h3>
+          <p class="small_content">by Kurt Wagner</p>
+      </div>
+        <div class="card_background">
+        <div class="image_container">
+          <img
+            class="image"
+            src="https://www.planetware.com/wpimages/2020/01/india-in-pictures-beautiful-places-to-photograph-gateway-of-india-mumbai.jpg"
+            alt="img"
+          />
+        </div>
+        <div class="card__content margin">
+          <p class="description">
+            Visit ten places on our planet that are undergoing the biggest
+            changes today.
+          </p>     
+        </div>
+      </div>
+        <footer class="footer">
+          <button class="btn">READ</button>
+          <button class="btn">BOOKMARK</button>
+          <div class="icons">
+            <img class="icon" src="./icon/like.png" alt="" />
+            <img class="icon" src="./icon/share.png" alt="" />
+            <img class="icon" src="./icon/three-dot.png" alt="" />
+          </div>
+        </footer>
+      </div>
+    </div> -->
+<br>
+<!-- card with only button -->
+    <!-- <div class="card__container">
+      <div class="card__wrapper">
+        <div class="card_background">
+          
+          <div class="image_container">
+            <img
+              class="image"
+              src="https://www.planetware.com/wpimages/2020/01/india-in-pictures-beautiful-places-to-photograph-gateway-of-india-mumbai.jpg"
+              alt="img"
+            />
+          </div>
+          <div class="card__content">
+            <div class="header_with_btn">
+              <h3 class="title">Our Changing Planet</h3>
+              <p class="small_content">by Kurt Wagner</p>
+          </div>
+            <p class="description">
+              Visit ten places on our planet that are undergoing the biggest
+              changes today.
+            </p>
+        </div>
+        </div>
+      <footer class="footer">
+        <button class="btn">READ</button>
+        <button class="btn">BOOKMARK</button>
+      </div>
+    </footer>
+    </div> -->
+    <br>
+<!-- card with only icon -->
+    <!-- <div class="card__container">
+      <div class="card__wrapper">
+        <div class="card_background">
+          <div class="image_container">
+            <img
+              class="image"
+              src="https://www.planetware.com/wpimages/2020/01/india-in-pictures-beautiful-places-to-photograph-gateway-of-india-mumbai.jpg"
+              alt="img"
+            />
+          </div>
+          <div class="card__content">
+            <div class="header_with_icon">
+              <h3 class="title">Our Changing Planet</h3>
+              <p class="small_content">by Kurt Wagner</p>
+          </div>
+            <p class="description">
+              Visit ten places on our planet that are undergoing the biggest
+              changes today.
+            </p>
+    
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="icons">
+            <img class="icon" src="./icon/like.png" alt="" />
+            <img class="icon" src="./icon/share.png" alt="" />
+            <img class="icon" src="./icon/three-dot.png" alt="" />
+          </div>
+        </footer>
+      </div>
+    </div> -->
+    <br>
+    <!-- (small card) horizontal image and text -->
+    <!-- <div class="card__container">
+      <div class="card__wrapper small">
+        <div class="card_background">
+          <div class="image_container">
+            <img
+            class="small_image"
+            src="https://www.planetware.com/wpimages/2020/01/india-in-pictures-beautiful-places-to-photograph-gateway-of-india-mumbai.jpg"
+            alt="img"
+            />
+          </div>
+          <div class="card__content">
+            <div class="small_header">
+            <h3 class="title">Our Changing Planet</h3>
+            <p class="small_content">by Kurt Wagner</p>
+            </div>
+          </div>
+        </div>
+        <footer class="footer">
+          <button class="btn">READ</button>
+          <button class="btn">BOOKMARK</button>
+          <div class="icons">
+            <img class="icon" src="./icon/like.png" alt="" />
+            <img class="icon" src="./icon/share.png" alt="" />
+            <img class="icon" src="./icon/three-dot.png" alt="" />
+          </div>
+        </footer>
+      </div>
+    </div> -->
+  </body>
+</html>

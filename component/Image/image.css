@@ -12,13 +12,13 @@
 .round-img{
     height:9rem;
     width: 9rem;
-    border-radius:999px;
+    border-radius:50%;
     object-fit: cover;
 
 }
 
 .square-img{
-    height:9rem;
-    width: 9rem;
+    height:15rem;
+    width: 15rem;
     object-fit: cover;
 }

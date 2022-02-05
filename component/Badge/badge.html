@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badge</title>
+    <link rel="stylesheet" href="/css/components.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <h1 class="logo-title black fs-2">Create <span class="header-ui">ui</span></h1>
+            <ul class="nav-list">
+                <li ><a class="item" href="/index.html">Home</a></li>
+                <li ><a class="item" href="/get-started/introduction.html">Docs</a></li>
+                <li><a href="https://www.linkedin.com/in/deepak-goyal-584157179/"><img class="icon" src="/assets/img/linkedin.png" alt=""></a></li>
+                <li><a href="https://github.com/deepak29-git/Create-ui"><img class="icon" src="/assets/img/twitter.png" alt=""></a></li>
+                <li><a href="https://twitter.com/deepak887180"><img class="icon" src="/assets/img/github.png" alt=""></a></li>
+            </ul>
+        </nav>
+    </header>
+        <!-- sidebar -->
+        <div class="intro-container mt-2 ">
+        <aside class="sidebar">
+            <h4 class="list-title mb-1 ml-1 mt-2">Components</h4>
+            <hr>
+            <ul class="list-group">
+                    <li class="list-item"><a class="component-link" href="/component/Avatar/avatar.html">Avatar</a></li>
+                    <li class="list-item"><a class="component-link" href="/component/Alert/alert.html">Alert</a></li>
+                    <li class="list-item"><a class="component-link active-tab" href="/component/Badge/badge.html">Bedge</a></li>
+                    <li class="list-item"><a class="component-link" href="/component/Button/button.html">Button</a></li>
+                    <li class="list-item"><a class="component-link" href="/component/Card/card.html">Card</a></li>
+                    <li class="list-item"><a class="component-link" href="/component/Image/image.html">Image</a></li>
+                    <li class="list-item"><a class="component-link" href="/component/Input/input.html">Input</a></li>
+                </ul>
+            </aside>
+   <!-- main section -->
+
+
+   <main class="main-container plr-1 mt-2">
+    <h1 class="mb-2">Badge</h1>
+    <p class="mb-2">Badges are used to highlight an item's status for quick recognition.</p>
+    <hr class="mb-2">
+    
+    <section >
+        <p class="fs-3 black mb-2">Basic Badge</p>
+        <p class="mb-2">It is show the number of item's present in the container.You need to put image url inside the image and use it then you can easily use the badge by adding the below classname.</p>
+        <section class="show-component mb-2 ">
+                <div class="badge">
+                    <img class="icon" src="/assets/img/home.png" alt="home-icon">
+                    <div class="number">5</div>  
+                </div>
+                <div class="badge">
+                    <img class="icon" src="/assets/img/shopping-cart.png" alt="shopping-cart">
+                    <div class="number">5</div>  
+                </div>
+                <div class="badge">
+                    <img class="icon" src="/assets/img/email.png" alt="shopping-cart">
+                    <div class="number">5</div>  
+                </div>
+        </section>
+        <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=791&ds=false&dsyoff=63px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522icon%2522%2520src%253D%2522https%252F%252F%253Aimage-url%2522%2520alt%253D%2522home-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522number%2522%253E5%253C%252Fdiv%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+        style="width: 100%; height: 150px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+
+        <hr class="mb-2 mt-2">   
+    </section>  
+ 
+    <section>
+        <p class="semibold fs-3 mb-2">Color Badge</p>
+        <p class="mb-2">Create ui provides some predefined color badge.</p>
+        <section class="show-component mb-2">
+            <div class="badge">
+                <img class="icon" src="/assets/img/home.png" alt="home.jpg">
+                <div class="number primary">5</div>  
+            </div>
+            <div class="badge">
+                <img class="icon" src="/assets/img/email.png" alt="email.jpg">
+                <div class="number success">5</div>  
+            </div>
+          </section>
+          <div class="mb-2">
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=791&ds=false&dsyoff=63px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2509%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522icon%2522%2520src%253D%2522http%253A%252F%252Fimage-url%2522%2520alt%253D%2522home.jpg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522number%2520primary%2522%253E5%253C%252Fdiv%253E%2520%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+            style="width: 100%; height: 150px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        <hr class="mb-2"> 
+        <p class="semibold fs-3 mb-2">Profile Badge</p>
+        <p class="mb-2">Profile badge is used to show the status of user</p>
+        <div class="show-component mb-2">
+            <div class="badge">
+                <img class="avatar" src="/assets/img/bedge-avatar-1.jpg" alt="home-icon">
+                <div class="online"></div>  
+            </div>
+            <div class="badge">
+                <img class="avatar" src="/assets/img/bedge-avatar-2.jpg" alt="shopping-cart">
+                <div class="offline"></div>  
+            </div>
+            <div class="badge">
+                <img class="avatar" src="/assets/img/bedge-avatar-3.jpg" alt="shopping-cart">
+                <div class="dnd"></div>  
+            </div>
+        </div>
+      
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=791&ds=false&dsyoff=63px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2509%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522http%253A%252F%252Fimage-url%2522%2520alt%253D%2522home-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522online%2522%253E%253C%252Fdiv%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522http%253A%252F%252Fimage-url%2522%2520alt%253D%2522shopping-cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522offline%2522%253E%253C%252Fdiv%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522http%253A%252F%252Fimage-url%2522%2520alt%253D%2522shopping-cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522dnd%2522%253E%253C%252Fdiv%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+            style="width: 100%; height: 336px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+            </iframe>
+   
+        <hr class="mb-2 mt-2"> 
+       
+    </section>
+    <div class="links mb-2">
+        <a class="link-tab" href="/component/Alert/alert.html"><span class="arrow"><</span>Alert</a>
+        <a class="link-tab" href="/component/Button/button.html">Button<span class="arrow">></span> </a>
+    </div>
+</main>
+</body>
+</html>

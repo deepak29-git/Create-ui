@@ -1,0 +1,32 @@
+.intro-container{
+    display:flex;
+}
+.main-container{
+    flex-grow: 1;
+}
+.sidebar{
+    flex-basis: 300px;
+    flex-shrink: 0;
+}
+.component-link{
+    color: var(--black-color);
+    transition:all 0.2s ease-in;
+    padding: 0.5rem;
+}
+
+.active-tab{
+   font-weight: 800;
+}
+.component-link:hover{
+    color:var(--primary-color);
+    border-bottom: 1px solid black;
+}
+
+
+/* media query */
+ @media (max-width: 740px){
+         .sidebar{
+            display:none;
+         }
+     
+ }

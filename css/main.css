@@ -1,0 +1,35 @@
+
+
+/* content section */
+
+.main-section{
+    display: flex;   
+    align-items: center;
+    height:35rem;
+    justify-content: center;
+}
+.content-section{
+    margin-top:7rem;
+}
+
+
+.get-started{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+    font-size:1.5rem;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.icon{
+    height:2rem;
+    width:2rem;
+}
+
+
