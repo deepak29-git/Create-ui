@@ -1,0 +1,89 @@
+.center-text{
+    text-align: center;
+}
+
+.grey-text{
+    color: var(--grey-color);
+}
+
+.small-text{
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.143rem;
+    letter-spacing:-0.00625rem;
+}
+
+/* heading typography */
+
+h1{
+    font-size:3rem;
+    line-height:4rem;
+    font-weight: 900;
+}
+h2{
+    font-size:2rem;
+    line-height:2.5rem;
+    font-weight: 900;
+}
+
+h3{
+    font-size:1.5rem;
+    line-height:2rem;
+    font-weight: 900;
+}
+h4{
+    font-size:1rem;
+    line-height:1.5rem;
+    font-weight: 900;
+}
+h5{
+    font-size:0.5rem;
+    line-height:1rem;
+    font-weight: 900;
+}
+
+/* text typography */
+
+.fs-1{
+    font-size:3rem;
+    line-height: 4rem;
+}
+.fs-2{
+    font-size:2rem;
+    line-height: 2.5rem;
+}
+.fs-3{
+    font-size:1.5rem;
+    line-height: 2rem;
+}
+
+.fs-4{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.fs-5{
+    font-size: 0.5rem;
+    line-height: 1rem;
+}
+
+/* font weight typography */
+
+.light{
+    font-weight:300;
+}
+
+.regular{
+    font-weight:400;
+}
+
+.semibold{
+    font-weight:600;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.black{
+    font-weight:900;
+}
