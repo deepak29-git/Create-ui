@@ -3,49 +3,45 @@
 /* card with badge */
 .card {
   position: relative;
+  background-color:white;
+  width:15rem;
+  
 
-}
-
-.card-bg {
-  width: 15.625rem;
-  background-color: var(--white-color);
-  border-radius: 0.313rem;
-  padding-bottom: 10px;
-  cursor: pointer;
-}
-
-.card-title {
-  margin-bottom: 0.5rem;
 }
 
 .card-subtitle {
-  color: var(--grey-color);
-}
-
-.card-description {
-  margin-top: 0.5rem;
+  color: var(--black-color);
+  margin:0.4rem 0;
 }
 
 
 .badge-icon {
-  height: 2.5rem;
-  width: 2.5rem;
+  height: 2.2rem;
+  width: 2.2rem;
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 0;
+  left: 0;
+}
+
+.dismiss,.like-btn{
+  height: 2.4rem;
+  width: 2.4rem;
+  position: absolute;
+  right: 5px;
+  top: 10px;
   cursor: pointer;
   padding: 0.5rem;
   border-radius: 50%;
 }
 
-.badge-icon:hover {
-  background-color:var(--grey-color)
+.dismiss:hover,.like-btn:hover {
+  background-color:var(--light-grey)
 }
 
 
 
 .card-img {
-  width: 15.625rem;
+  /* width: 15.625rem; */
   border-radius: 5px;
 }
 
@@ -56,124 +52,6 @@
 }
 
 
-
-
-
-/* basic with text over media */
-
-.text_media {
-  position: relative;
-}
-.header_content {
-  position: absolute;
-  top: 30%;
-  color:var(--white-color)
-}
-
-
-
-
-
-
-/* main container */
-.card__container {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  margin-left: 20px;
-}
-
-.card__wrapper {
-  border-radius: 5px;
-  width: 380px;
-  background-color:var(--white-color)
-}
-
-
-.image {
-  width: 38rem;
-  border-radius: 5px;
-  height: 20rem;
-}
-.card__content,
-.footer {
-  padding:0 20px;
-}
-.title {
-  padding-top: 20px;
-  padding-bottom: 8px;
-}
-
-.description {
-  margin: 1.5rem 0rem;
-} 
-
-/* footer section */
-.footer {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-}
-
-/* icons css */
-.icons {
-  margin-left: auto;
-  display: flex;
-  align-items: center;
-
-}
-.card-icon {
-  height: 3rem;
-  width: 3rem;
-  cursor: pointer;
-  border-radius: 50%;
-  padding: 10px;
-}
-
-/* button css */
-.card-btn {
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 14px;
-  background: none;
-  color: purple;
-  border: none;
-  padding: 0.5rem 0.4rem;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.card-btn:hover,
-.card-icon:hover {
-  background-color: var(--secondary-hover);
-} 
-
-/* utility */
-.margin {
-  margin-bottom: 10px;
-}
-
-/* car with header */
-
-.card-header {
-  padding: 10px 0 10px 20px;
-}
-
-/* small card */
-.small {
-  position: relative;
-}
-
-.small_image {
-  max-width: 10rem;
-  min-height: 10rem;
-}
-
-.small_header {
-  position: absolute;
-  top: 10px;
-  left: 48%;
-}
 
 /* ecom css */
 .ecom-card{
@@ -218,7 +96,7 @@
   cursor: pointer;
   position: absolute;
   top: 5px;
-  left: 5px;
+  left: 0px;
 }
 .rating{
   height:1rem;
@@ -249,4 +127,77 @@
 
 .shadow{
   box-shadow: -8px 8px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.text-overlay{
+  position: relative;
+}
+
+.media-title{
+  position: absolute;
+  top:20px;
+  
+}
+
+
+.media-subtitle{
+  position: absolute;
+  top:35px;
+  
+}
+
+
+/* horizontal card */
+.horizontal-img{
+  height:13rem;
+  width: 15rem;
+}  
+
+.horizontal-card{
+  display:flex;
+  width: 42%;
+  padding-right: 1.5rem;
+}
+
+
+.btn-group{
+  display:flex;
+  flex-direction:column;
+  gap: 0.5rem;
+  padding-top:3rem;
+}
+.discount{
+  padding:0.2rem
+}
+
+.price{
+  position:relative;
+
+}
+.line{
+  width: 45px;
+  position:absolute;
+  top: 10px;
+  left:3.5rem;
+  border-top: 1px solid var(--grey-color)
+}
+.product-img{
+  height:15rem;
+  width:10rem;  
+}
+
+.cart-btn{
+  padding: 0.5rem 2rem;
+  border: none;
+  color:var(--white-color);
+  background-color:var(--primary-color);
+  cursor: pointer;
+}
+.wishlist-btn{
+  padding: 0.5rem 2rem;
+  border: none;
+  background-color:var(--secondary-color);
+  cursor: pointer;
 }
