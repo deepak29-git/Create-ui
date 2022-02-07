@@ -10,6 +10,7 @@
 @import url('/component/Image/image.css'); 
 @import url('/component/Input/input.css'); 
 @import url('/component/Text/text.css'); 
+@import url('/component/Modal/modal.css'); 
 @import url('/css/main.css');
 @import url('/css/navbar.css');
 @import url('/css/sidebar.css');
