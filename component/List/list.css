@@ -1,0 +1,46 @@
+/* list css start */
+
+/* normal list */
+
+.list-group{
+    list-style: none;
+}
+.normal-list{
+    background-color: var(--white-color);
+    width: 12.5rem;
+}
+.list-title{
+    margin: 1rem;
+}
+.list{
+    cursor: pointer;
+    display: flex;
+    padding:1rem
+}
+
+.list:hover{
+    background-color:var(--primary-color)
+
+}
+
+/* notification list */
+
+.list-container{
+    width:31.25rem;
+    background-color:white;
+ 
+}
+.notification-icon{
+    height: 1.5rem;
+    width: 1.5rem;
+    
+}
+.text-wrapper{
+    margin-left: 1rem;
+}
+
+.notify-container{
+    display: flex;
+    align-items: center;
+
+}
