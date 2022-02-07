@@ -1,0 +1,57 @@
+.snackbar-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+}
+.snackbar {
+  display: flex;
+  background-color: var(--black-color);
+  color: var(--white-color);
+  padding: 1rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+
+.retry-btn {
+  background: none;
+  margin-left: 1rem;
+  border: none;
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.cross-icon {
+  cursor: pointer;
+  border-radius: 50%;
+  width: 85px;
+  padding: 0.8rem 1rem;
+}
+.cross-icon:hover {
+  background-color: var(--grey-color);
+}
+
+/* leading */
+
+.leading-snackbar {
+  left: 1rem;
+}
+
+/* stacked */
+
+.stacked-snackbar {
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+.retry-btn {
+  margin-right: 1rem;
+}
