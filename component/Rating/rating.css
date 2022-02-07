@@ -1,0 +1,51 @@
+/* rating css start */
+
+
+/* basic rating */
+.rating{
+   font-size:1.5rem;
+   cursor: pointer;
+   color:var(--grey-color); 
+   /* margin-right:3rem; */
+}
+.rating:hover{
+    color: var(--warning-color);
+}
+
+
+/* star rating */
+
+.star{
+    color:var(--warning-color); 
+ }
+ .star:hover{
+     color: var(--warning-hover);
+ }
+ 
+ /* size rating */
+
+ .mini{
+    font-size:2rem;
+ }
+ .small{
+    font-size:2.5rem;
+ }
+
+.medium{
+    font-size:3rem;
+}
+.large{
+    font-size:3.5rem;
+}
+.huge{
+    font-size:4rem;
+}
+.massive{
+    font-size:4.5rem;
+}
+
+.flex{
+    display: flex;
+    gap:4rem;
+    height:4rem;
+}
