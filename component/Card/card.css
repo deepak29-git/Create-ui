@@ -41,14 +41,11 @@
 
 
 .card-img {
-  /* width: 15.625rem; */
   border-radius: 5px;
 }
 
 .card-body {
-  margin-left: 1rem;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
+  padding: 1rem;
 }
 
 
@@ -56,7 +53,7 @@
 /* ecom css */
 .ecom-card{
   background-color: white;
-  width:14rem;
+  width:15rem;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -126,7 +123,7 @@
 /* card with shadow */
 
 .shadow{
-  box-shadow: -8px 8px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: -8px 8px 5px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -137,7 +134,7 @@
 
 .media-title{
   position: absolute;
-  top:20px;
+  top:10px;
   
 }
 
@@ -150,23 +147,22 @@
 
 
 /* horizontal card */
-.horizontal-img{
-  height:13rem;
-  width: 15rem;
-}  
-
-.horizontal-card{
-  display:flex;
-  width: 42%;
-  padding-right: 1.5rem;
+.horizontal{
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  width: 400px;
+  
 }
-
-
+.horizontal-body{
+  background-color:white;
+  margin-left: auto;
+ 
+}
 .btn-group{
   display:flex;
   flex-direction:column;
   gap: 0.5rem;
-  padding-top:3rem;
 }
 .discount{
   padding:0.2rem
@@ -200,4 +196,12 @@
   border: none;
   background-color:var(--secondary-color);
   cursor: pointer;
+}
+
+
+@media only screen and (max-width:500px){
+  .horizontal{
+    display: none;
+  }
+
 }
