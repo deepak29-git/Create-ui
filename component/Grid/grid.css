@@ -1,0 +1,42 @@
+.grid{
+    display:grid;
+    grid-auto-flow: row;
+    grid-gap:1rem;
+}
+
+.two-item{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.two-item > *{
+    background-color:var(--primary-color);
+    color:var(--white-color);
+    padding: 1rem;
+    justify-content:center;
+    display:flex;
+    align-items:center;
+}
+
+
+.three-item > *{
+    background-color:var(--primary-color);
+    color:var(--white-color);
+    padding: 1rem;
+    justify-content:center;
+    display:flex;
+    align-items:center;
+}
+
+.three-item{
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+@media only screen and (max-width:600px){
+    .two-item{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .three-item{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
