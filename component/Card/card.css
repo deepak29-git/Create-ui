@@ -147,16 +147,21 @@
 
 
 /* horizontal card */
+
 .horizontal{
+  width: 24rem;
+}
+.bg{
   display: flex;
   flex-direction: row;
   height: 200px;
-  width: 400px;
+  /* padding-right:1rem ; */
+  /* width: 500px; */
   
 }
 .horizontal-body{
   background-color:white;
-  margin-left: auto;
+  /* margin-left: auto; */
  
 }
 .btn-group{
@@ -185,7 +190,7 @@
 }
 
 .cart-btn{
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 3rem;
   border: none;
   color:var(--white-color);
   background-color:var(--primary-color);
@@ -201,7 +206,21 @@
 
 @media only screen and (max-width:500px){
   .horizontal{
-    display: none;
+    width:15rem;
   }
+  .bg{
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+
+  }
+  .horizonatal-img{
+    height:12.5rem;
+    width:15rem;
+  }
+  .mb-view{
+    height: 100vh;
+}
+
 
 }
