@@ -11,7 +11,42 @@
 @import url('/component/Input/input.css'); 
 @import url('/component/Text/text.css'); 
 @import url('/component/List/list.css'); 
+@import url('/component/Navigation/navigation.css'); 
+@import url('/component/Rating/rating.css'); 
 @import url('/css/main.css');
 @import url('/css/navbar.css');
 @import url('/css/sidebar.css');
 @import url('/get-started/introduction.css');
+
+/* common css for all component */
+
+.show-component{
+    padding: 2rem;
+    background-color:var(--secondary-color);
+    border-radius:5px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;;
+}
+
+.show-code{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* footer tab css */
+
+.links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.link-tab{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 0.5rem 1rem;
+}
+
