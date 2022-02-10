@@ -1,17 +1,15 @@
 /* button css */
 
-
-
-
+.main-container{
+    width: 100vw;
+}
 .btn{
     border:none;
-    padding:0.8rem 2rem;
+    padding:0.6rem 0.6rem;
     cursor: pointer;
-    font-weight: 400;
     border-radius:0.313rem;
     transition: all 0.5s;
     background:none;
-    font-size: 1.2rem;
 }
 
 .btn-primary{
