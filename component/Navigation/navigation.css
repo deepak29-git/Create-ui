@@ -1,20 +1,21 @@
 .ecom-nav{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    display:flex;
+    justify-content: space-between;
     flex-wrap: wrap;
+    gap:2rem;
 }
 
 
 .ecom-group{
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     align-items: center;
 }
 
 .input-parent{
+    display: flex;
     position: relative;
-    margin-left: 5rem;
+    width: 400px;
 }
 
 .search{
@@ -26,10 +27,10 @@
 .ecom-input{
     padding:0.8rem 2.5rem ;
     border-radius: 5px;
-    width: 70%;
     border: 1px solid black;
     outline:none;
     font-size: unset;
+    flex-grow: 1;
 }
 
 .ecom-input:focus{

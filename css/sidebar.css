@@ -1,30 +1,33 @@
+
 .intro-container{
     display:flex;
 }
 .main-container{
     flex-grow: 1;
+   
 }
 .sidebar{
-    flex-basis: 300px;
+    overflow-y:scroll;
+    height: 80vh;
+    flex-basis: 280px;
     flex-shrink: 0;
 }
 .component-link{
     color: var(--black-color);
-    transition:all 0.2s ease-in;
     padding: 0.5rem;
 }
 
 .active-tab{
-   font-weight: 800;
+   font-weight: 600;
+   color:var(--primary-color);
 }
 .component-link:hover{
-    color:var(--primary-color);
-    border-bottom: 1px solid black;
+    border-left: 1px solid black;
 }
 
 
 /* media query */
- @media (max-width: 740px){
+ @media only screen and (max-width: 46.25em){
          .sidebar{
             display:none;
          }

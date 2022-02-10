@@ -5,7 +5,7 @@
 .header{
     background-color:var(--primary-color);
     padding-bottom: 1rem;
-    
+ 
 }
 .navbar{
     display:flex;
