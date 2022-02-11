@@ -11,8 +11,11 @@
 @import url('/component/Input/input.css'); 
 @import url('/component/Text/text.css'); 
 @import url('/component/List/list.css'); 
+@import url('/component/Modal/modal.css'); 
 @import url('/component/Navigation/navigation.css'); 
+@import url('/component/Snackbar/snackbar.css'); 
 @import url('/component/Rating/rating.css'); 
+@import url('/component/Grid/grid.css'); 
 @import url('/css/main.css');
 @import url('/css/navbar.css');
 @import url('/css/sidebar.css');
