@@ -83,6 +83,26 @@
 .mt-2{
     margin-top:2rem;
 }
+.mt-3{
+    margin-top:3rem;
+}
+.mt-4{
+    margin-top:4rem;
+}
+.mt-5{
+    margin-top:5rem;
+}
+.mt-6{
+    margin-top:6rem;
+}
+
+
+
+
+
+.ml-1{
+    margin-left:1rem;
+}
 .ml-2{
     margin-left:2rem;
 }
@@ -142,6 +162,15 @@
 }
 .my-3{
     margin: 3rem 0;
+}
+.my-4{
+    margin: 4rem 0;
+}
+.my-5{
+    margin: 5rem 0;
+}
+.my-6{
+    margin: 5rem 0;
 }
 
 
