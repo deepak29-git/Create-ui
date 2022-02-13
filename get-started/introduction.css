@@ -4,12 +4,16 @@
     background-color:hotpink;
 }
 
-html{
-    font-size: 100%;
+.nightmode-icon,
+.morningmode-icon{
+    height:2rem;
+    width: 2rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius:5px;
 }
 
-@media only screen and (max-width:31.25em){
-    html{
-        font-size:80%;
-    }
+.nightmode-icon:hover{
+    background-color:#d4d4d4;
 }
+

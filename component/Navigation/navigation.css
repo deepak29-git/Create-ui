@@ -60,3 +60,18 @@
     color: var(--grey-color);
     font-weight:600;
 }
+
+.simple-nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-left: auto;
+}
+
+.nav-group{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 1rem;
+}
+

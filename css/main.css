@@ -1,68 +1,69 @@
-
-
 /* content section */
 
-.main-section{
-    display: flex;   
-    align-items: center;
-    height:35rem;
-    justify-content: center;
+.main-section {
+  display: flex;
+  align-items: center;
+  height: 35rem;
+  justify-content: center;
 }
-.content-section{
-    margin-top:7rem;
-}
-
-
-.get-started{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 10px;
-    align-items: center;
-    font-size:1.5rem;
+.content-section {
+  margin-top: 7rem;
 }
 
-
-a{
-    text-decoration: none;
+.get-started {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+  align-items: center;
+  font-size: 1.5rem;
 }
 
-.icon{
-    height:2rem;
-    width:2rem;
+a {
+  text-decoration: none;
 }
 
-
+.social-icon {
+  height: 2rem;
+  width: 2rem;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+}
 
 /* common css for all component */
 
-.show-component{
-    padding: 2rem;
-    background-color:var(--secondary-color);
-    border-radius:5px;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+.show-component {
+  padding: 2rem;
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
-.show-code{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.show-code {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* footer tab css */
 
-.links{
-    display: flex;
-    justify-content: space-around;
+.links {
+  display: flex;
+  justify-content: space-around;
 }
 
-.link-tab{
-    background-color: var(--primary-color);
-    color: var(--white-color);
-    padding: 0.5rem 1rem;
+.link-tab {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 0.5rem 1rem;
 }
 
+@media only screen and (max-width:500px){
+    html{
+        font-size: 60%;
+    }
+}
