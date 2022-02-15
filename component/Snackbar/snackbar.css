@@ -6,6 +6,8 @@
 }
 .snackbar {
   display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
   background-color: var(--black-color);
   color: var(--white-color);
   padding: 1rem;
@@ -15,7 +17,6 @@
 
 .retry-btn {
   background: none;
-  margin-left: 1rem;
   border: none;
   color: var(--primary-color);
   font-weight: bold;
@@ -27,7 +28,7 @@
   cursor: pointer;
   border-radius: 50%;
   width: 85px;
-  padding: 0.8rem 1rem;
+  /* padding: 0.8rem 1rem; */
 }
 .cross-icon:hover {
   background-color: var(--grey-color);

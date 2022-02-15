@@ -53,19 +53,18 @@
     font-size:2rem;
     
 }
-
-
-.cart-text{
-    font-size:1.5rem;
-    color: var(--grey-color);
-    font-weight:600;
+header{
+    width:100%;
 }
+
 
 .simple-nav{
     display: flex;
-    justify-content: flex-end;
+    flex-wrap: wrap;
     width: 100%;
-    margin-left: auto;
+    padding: 1rem;
+    background-color:var(--primary-color)
+
 }
 
 .nav-group{
@@ -73,5 +72,16 @@
     list-style: none;
     align-items: center;
     gap: 1rem;
+    margin-left: auto;
+    flex-wrap: wrap;
 }
 
+.simple-navlist{
+    border-radius: 10px;
+    padding: 1rem;
+    color:var(--black-color)
+}
+
+.simple-navlist:hover{
+    background-color: var(--light-grey)
+}

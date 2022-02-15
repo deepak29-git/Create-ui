@@ -4,7 +4,7 @@
 
 .header{
     background-color:var(--white-color);
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
     position: fixed;
     width: 100%;
     top: 0;

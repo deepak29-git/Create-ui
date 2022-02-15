@@ -14,8 +14,7 @@ nightModeIcon.addEventListener("click",()=>{
         logoTitle.style.color="var(--white-color)"
         header[0].style.backgroundColor="var(--dark-color)"
         for(let i=0;i<navItem.length;i++){
-            navItem[i].style.color="var(--white-color)"
-            
+            navItem[i].style.color="var(--white-color)"   
         }
 
         for(let i=0;i<sidebarLink.length;i++){

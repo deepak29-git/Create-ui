@@ -97,9 +97,6 @@
 }
 
 
-
-
-
 .ml-1{
     margin-left:1rem;
 }
@@ -118,6 +115,12 @@
 
 .pl-2{
     padding-left:2rem;
+}
+.pr-1{
+    padding-right:1rem;
+}
+.pr-2{
+    padding-right:2rem;
 }
 
 .mt-1{
