@@ -3,6 +3,7 @@
 @import url('/css/reset.css');
 @import url('/css/variable.css');
 @import url('/component/Alert/alert.css');
+@import url('/component/Color/color.css');
 @import url('/component/Avatar/avatar.css');
 @import url('/component/Badge/badge.css');
 @import url('/component/Button/button.css');

@@ -40,7 +40,7 @@ a {
 
 .show-component {
   padding: 2rem;
-  background-color: var(--secondary-color);
+  background-color: var(--accent-color);
   border-radius: 5px;
   display: flex;
   flex-wrap: wrap;

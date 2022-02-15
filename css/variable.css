@@ -3,17 +3,18 @@
     /* color */
     --primary-color: #a15ae4;
     --secondary-color :#ededee;
+    --accent-color:#f4f4f5;
     --danger-color:#eb4e43;
     --success-color:#4fb352;
     --warning-color:#ecb35d;
+    --action-color:#3B82F6;
     --active-color:rgb(15, 202, 235);
     --info-color:#61e0e0;
     --white-color:#FFFFFF;
     --black-color:#282828;
     --grey-color:#9A9A9A;
     --light-grey:#d4d4d4;
-    --dark-color:#1e293b
-    ;
+    --dark-color:#1e293b;
     --link-color:rgb(54, 147, 253);
     --text-color:#7C3AED;
     
