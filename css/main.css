@@ -61,11 +61,17 @@ a {
   display: flex;
   justify-content: space-around;
 }
-
 .link-tab {
   background-color: var(--primary-color);
   color: var(--white-color);
   padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.right-navigation{
+  display: flex;
+  align-items: center;
 }
 
 @media only screen and (max-width:500px){

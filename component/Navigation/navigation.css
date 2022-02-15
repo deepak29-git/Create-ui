@@ -49,7 +49,7 @@
     cursor: pointer;
 }
 
-.heart,.shopping-cart{
+#heart,#shopping-cart{
     font-size:2rem;
     
 }

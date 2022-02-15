@@ -9,6 +9,7 @@ showDemo.addEventListener("click",()=>{
     modal.style.display="block";
     modal.style.position="fixed";
     modal.style.top="0";
+    modal.style.zIndex="3";
 });
 
 closeBtn.addEventListener("click",()=>{

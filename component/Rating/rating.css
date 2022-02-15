@@ -3,10 +3,9 @@
 
 /* basic rating */
 .rating{
-   font-size:1.5rem;
    cursor: pointer;
    color:var(--grey-color); 
-   /* margin-right:3rem; */
+
 }
 .rating:hover{
     color: var(--warning-color);
@@ -27,30 +26,34 @@
  .mini{
     font-size:2rem;
  }
- .small{
+ #small{
     font-size:2.5rem;
  }
 
-.medium{
+#medium{
     font-size:3rem;
 }
-.large{
+#large{
     font-size:3.5rem;
 }
-.huge{
+#huge{
     font-size:4rem;
 }
-.massive{
-    font-size:4.5rem;
+#massive {
+    font-size:8rem;
 }
 
 .rating-wrapper{
     display: flex;
-    gap:4rem;
-    /* height:4rem; */
+    gap:3rem;
+    height:7rem;
     flex-wrap: wrap;
 }
 
+#deepak{
+    font-size:5rem ;
+    color: blue;
+}
 @media only screen and (max-width:500px){
 
     .size-rating-show{

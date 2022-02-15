@@ -12,6 +12,11 @@ In order to use the Create ui library in your  project, copy the below link and 
 <link rel="stylesheet" href="https://create-ui.netlify.app/css/components.css" />
 ```
 
+Create Ui uses material icons. Copy the given link and paste it in the <head> tag before the link mentioned above.
+
+```
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+```
 ## What's included?
 
 ## Helpers
