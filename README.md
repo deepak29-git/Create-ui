@@ -40,3 +40,4 @@ Create Ui uses material icons. Copy the given link and paste it in the <head> ta
 ## Documentation
 The documentation resides in the [Indroduction](https://github.com/deepak29-git/Create-ui/tree/dev/get-started) directory. Detailed documentation can be found [here](https://create-ui.netlify.app/).
 
+![Create-ui-demo](/assets/video/create-ui.mp4)
