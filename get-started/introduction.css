@@ -1,19 +1,27 @@
 /* customize css */
-.my-style{
-    color:black;
-    background-color:hotpink;
+.my-style {
+  color: black;
+  background-color: hotpink;
 }
 
 .nightmode-icon,
-.morningmode-icon{
-    height:2rem;
-    width: 2rem;
-    cursor: pointer;
-    padding: 0.5rem;
-    border-radius:5px;
+.morningmode-icon {
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 5px;
 }
 
-.nightmode-icon:hover{
-    background-color:#d4d4d4;
+.nightmode-icon:hover {
+  background-color: #d4d4d4;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
+}
+
 
