@@ -6,10 +6,11 @@
     font-size:2rem;
     align-items: flex-end;
     justify-content:center;
+
 }
 .primary{
     background-color:var(--primary-color);
-    color:var(--white-color);
+    color:var(--black-color);
 }
 .secondary{
     background-color:var(--secondary-color);
@@ -17,18 +18,18 @@
 }
 .danger{
     background-color:var(--danger-color);
-    color:var(--white-color);
+    color:var(--black-color);
 }
 .success{
     background-color:var(--success-color);
-    color:var(--white-color);
+    color:var(--black-color);
 }
 .warning{
     background-color:var(--warning-color);
-    color:var(--white-color);
+    color:var(--black-color);
 }
 
 .action{
     background-color:var(--action-color);
-    color:var(--white-color);
+    color:var(--black-color);
 }

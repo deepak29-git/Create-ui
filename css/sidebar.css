@@ -29,6 +29,7 @@
    font-weight: 600;
 }
 
+
 .list-item:hover{
     background-color: var(--light-grey)
 }

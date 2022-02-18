@@ -120,6 +120,9 @@
   cursor: pointer;
 }
 
+
+
+
 /* card with shadow */
 
 .shadow{
@@ -130,11 +133,13 @@
 
 .text-overlay{
   position: relative;
+  opacity: 0.3;
 }
 
 .media-title{
   position: absolute;
   top:10px;
+  z-index: 2;
   
 }
 

@@ -2,14 +2,14 @@
 :root {
     /* color */
     --primary-color: #a15ae4;
-    --secondary-color :#ededee;
+    --secondary-color :#6c757d;
     --accent-color:#f4f4f5;
-    --danger-color:#eb4e43;
-    --success-color:#4fb352;
-    --warning-color:#ecb35d;
+    --danger-color:#dc3545;
+    --success-color:#28a745;
+    --warning-color:#ffc107;
     --action-color:#3B82F6;
     --active-color:rgb(15, 202, 235);
-    --info-color:#61e0e0;
+    --info-color:#17a2b8;
     --white-color:#FFFFFF;
     --black-color:#282828;
     --grey-color:#9A9A9A;

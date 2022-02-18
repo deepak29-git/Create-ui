@@ -17,11 +17,5 @@
   background-color: #d4d4d4;
 }
 
-.footer {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  list-style: none;
-}
 
 

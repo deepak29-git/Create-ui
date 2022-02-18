@@ -41,27 +41,17 @@
 
 /* color badge */
 
-.primary{
-    background-color:var(--primary-color);
-    color: var(--white-color);
-}
-
-.success{
-    background-color:var(--success-color);
-    color: var(--white-color);
-}
-
-
 /* profile badge */
 
 .online{
     background-color:var(--success-color);
-    height:0.7rem;
-    width:0.7rem;
+    height:0.8rem;
+    width:0.8rem;
     border-radius:50%;
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: 10px;
+    right: 5px;
+    border:2px solid var(--light-grey);
 
 }
 

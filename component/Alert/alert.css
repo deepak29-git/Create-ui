@@ -6,7 +6,7 @@
 /* basic alert */
 
 .alert {
-    color: var(--white-color);
+    color: var(--black-color);
     padding: 1rem;
     margin-bottom: 0.5rem;
     border-radius:0.313rem;

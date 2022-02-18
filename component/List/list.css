@@ -11,11 +11,13 @@
 }
 .list-title{
     margin: 1rem;
+    color:var(--black-color)
 }
 .list{
     cursor: pointer;
     display: flex;
-    padding:1rem
+    padding:1rem;
+    color:var(--black-color)
 }
 
 .list:hover{

@@ -35,8 +35,8 @@
     display: flex;
     color:var(--white-color)
 }
-.item{
-    color:var(--black-color)
+.item,#home-icon{
+    color:var(--black-color);
 }
 
 .logo-title{

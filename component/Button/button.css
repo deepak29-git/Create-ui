@@ -134,12 +134,12 @@ a{
     display: flex;
     align-items: center;
     gap: 1rem;
-    background-color:var(--info-color);
+    background-color:var(--primary-color);
     color: var(--white-color);
 
 }
 .text-icon:hover{
-    background-color:var(--info-hover);
+    background-color:var(--primary-hover);
 }
 
 
@@ -152,11 +152,11 @@ a{
 /* text button */
 
 .btn-text{
-    color:var(--text-color);
+    color:var(--primary-color);
     
 }
 .btn-text:hover{
-    background-color: var(--text-hover)
+    background-color: var(--light-grey)
 }
 
 /* floating action buttons */
