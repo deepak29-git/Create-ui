@@ -73,6 +73,19 @@ a {
   align-items: center;
 }
 
+.footer-section{
+  background-color: var(--primary-color);
+  padding: 1rem 0;
+}
+
+.social-media{
+  cursor:pointer;
+  display: flex;
+  gap: 1rem;
+  justify-content:center;
+}
+
+
 @media only screen and (max-width:500px){
     html{
         font-size: 90%;

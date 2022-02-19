@@ -197,3 +197,9 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  .non-bullet{
+      list-style: none;
+  }
+
+  
