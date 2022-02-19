@@ -18,7 +18,8 @@
   text-align: center;
 }
 .service:hover .sublist {
-  background-color: var(--primary-color);
+  background-color: var(--white-color);
+  border: 1px solid var(--grey-color);
   list-style: none;
   display: block;
   position: absolute;
@@ -48,12 +49,14 @@ a {
 }
 
 .service-c:hover .sub-sublist {
-  background-color: var(--primary-color);
+  background-color: var(--white-color);
   display: block;
   list-style: none;
+  border: 1px solid var(--grey-color);
 }
 
 .service-anchor {
   display: flex;
   align-items: center;
+  
 }
