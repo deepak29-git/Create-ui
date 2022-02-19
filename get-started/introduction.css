@@ -17,5 +17,15 @@
   background-color: #d4d4d4;
 }
 
-
+/* .iframe{
+  display: flex;
+  flex-wrap: wrap;
+  max-inline-size: 100%;
+  block-size: auto;
+  justify-content: center;
+  min-width:100%;
+  flex-direction: column;
+  overflow-x: wrap;
+  width: 400px;
+} */
 
