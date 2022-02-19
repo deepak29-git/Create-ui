@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/components.css" />
+    <link rel="stylesheet" href="/css/variable.css" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Submenu</title>
+  </head>
+  <body>
+    <ul id="nav">
+      <li><a href="">Home</a></li>
+      <li class="service">
+        <a class="service-anchor" href=""
+          >Service
+          <span id="arrow-dropdown" class="material-icons">
+            arrow_drop_down
+          </span>
+        </a>
+        <ul class="sublist">
+          <li class="sublist-item"><a href="#">serviceA</a></li>
+          <li class="sublist-item"><a href="#">serviceB</a></li>
+          <li class="sublist-item service-c">
+            <a class="service-anchor" href="#">
+              serviceC
+              <span class="material-icons"> arrow_right </span>
+            </a>
+            <ul class="sub-sublist">
+              <li class="sub-sublist-item"><a href="#">serviceC1</a></li>
+              <li class="sub-sublist-item"><a href="#">serviceC2</a></li>
+              <li class="sub-sublist-item"><a href="#">serviceC3</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </body>
+</html>

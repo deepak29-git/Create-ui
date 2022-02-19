@@ -1,0 +1,59 @@
+#nav {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  background-color: var(--warning-color);
+  height: 4rem;
+  align-items: center;
+}
+
+.service-c {
+  position: relative;
+}
+
+.sublist,
+.sub-sublist {
+  display: none;
+  width: 100px;
+  text-align: center;
+}
+.service:hover .sublist {
+  background-color: var(--primary-color);
+  list-style: none;
+  display: block;
+  position: absolute;
+}
+
+.sublist-item:hover {
+  background-color: var(--light-grey);
+}
+.sublist-item,
+.sub-sublist-item {
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  color: var(--black-color);
+}
+
+.sub-sublist {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100px;
+}
+
+.sub-sublist-item:hover {
+  background-color: var(--light-grey);
+}
+
+.service-c:hover .sub-sublist {
+  background-color: var(--primary-color);
+  display: block;
+  list-style: none;
+}
+
+.service-anchor {
+  display: flex;
+  align-items: center;
+}
