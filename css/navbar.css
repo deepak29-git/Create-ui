@@ -8,7 +8,7 @@
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 2;
+    z-index: 3;
     padding-bottom: 1rem;
     border-bottom: 2px solid var(--grey-color);
 }
