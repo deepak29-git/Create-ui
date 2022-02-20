@@ -1,0 +1,4 @@
+#tickmarks {
+  display: flex;
+  gap: 5px;
+}
