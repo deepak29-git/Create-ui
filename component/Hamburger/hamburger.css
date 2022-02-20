@@ -1,0 +1,22 @@
+#hamburger-icon {
+  cursor: pointer;
+}
+
+#hamburger-list-container {
+  position: absolute;
+  left: -100%;
+  background-color: var(--black-color);
+  transition: all 0.5s ease-in-out;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
+
+.hamburger-list {
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+}
+.hamburger-list-link {
+  text-decoration: none;
+  color: var(--white-color);
+}
