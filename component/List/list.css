@@ -6,11 +6,12 @@
     list-style: none;
 }
 .normal-list{
-    background-color: var(--grey-color);
+    background-color: var(--white-color);
     width: 12.5rem;
 }
 .list-title{
     margin: 1rem;
+    color:var(--black-color);
 
 }
 .list{
@@ -21,7 +22,7 @@
 }
 
 .list:hover{
-    background-color:var(--primary-color)
+    background-color:var(--accent-color)
 
 }
 
@@ -29,7 +30,7 @@
 
 .list-container{
     width:31.25rem;
-    background-color:var(--grey-color);
+    background-color:var(--white-color);
  
 }
 .notification-icon{
