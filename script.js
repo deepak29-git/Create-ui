@@ -12,6 +12,8 @@ const componentLink=document.querySelectorAll(".component-link")
 const listTitle=document.querySelector(".list-title");
 const homeIcon=document.querySelector("#home-icon")
 const showComponent=document.querySelectorAll(".show-component");
+const hamburger=document.querySelector("#hamburger");
+const navMenu=document.querySelector(".nav-menu");
 
 darkMode.addEventListener("click",()=>{
     if(body.style.backgroundColor==="black"){
@@ -49,8 +51,7 @@ darkMode.addEventListener("click",()=>{
 })
 
 
-const hamburger=document.querySelector("#hamburger");
-const navMenu=document.querySelector(".nav-menu");
+
 
 
 hamburger.addEventListener("click",()=>{
