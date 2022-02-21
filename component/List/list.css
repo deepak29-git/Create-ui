@@ -9,7 +9,7 @@
     background-color: var(--white-color);
     width: 12.5rem;
 }
-.list-title{
+.notification-title,.category-title{
     margin: 1rem;
     color:var(--black-color);
 
