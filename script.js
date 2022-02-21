@@ -57,7 +57,7 @@ darkMode.addEventListener("click",()=>{
         lightModeTheme()        
     }else{
         darkModeTheme()
-        
+
     }
     
 })
