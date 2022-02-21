@@ -211,7 +211,7 @@
   .horizontal{
     width:15rem;
   }
-  .bg{
+  .card-bg{
     display: flex;
     flex-direction: column;
     width: 15rem;
