@@ -16,29 +16,29 @@ const hamburger=document.querySelector("#hamburger");
 const navMenu=document.querySelector(".nav-menu");
 
 darkMode.addEventListener("click",()=>{
-    if(body.style.backgroundColor==="black"){
+    if(body.style.backgroundColor==="var(--dark-color)"){
         body.style.backgroundColor="white"
-        body.style.color="black"
+        body.style.color="var(--dark-color)"
         darkMode.innerText="dark_mode"
         header.style.backgroundColor="white"
-        logoTitle.style.color="black"
+        logoTitle.style.color="var(--dark-color)"
         listTitle.style.color="white"
-        homeIcon.style.color="black"
+        homeIcon.style.color="var(--dark-color)"
         for(let i=0; i<showComponent.length;i++){
             showComponent[i].style.backgroundColor="var(--accent-color)"
         }
         for(let i=0;i<componentLink.length; i++){
-            componentLink[i].style.color="black"
+            componentLink[i].style.color="var(--dark-color)"
         }
         
     }else{
-        body.style.backgroundColor="black"
+        body.style.backgroundColor="var(--dark-color)"
         body.style.color="white"
         darkMode.innerText="light_mode"
-        header.style.backgroundColor="black"
+        header.style.backgroundColor="var(--dark-color)"
         logoTitle.style.color="white"
         homeIcon.style.color="white"
-        listTitle.style.color="black"
+        listTitle.style.color="var(--dark-color)"
         for(let i=0; i<showComponent.length;i++){
             showComponent[i].style.backgroundColor="var(--show-component-dark)"
         }
