@@ -91,6 +91,12 @@ a {
 }
 
 
+.checkbox{
+  display: none;
+}
+#check-label{
+  cursor: pointer;
+}
 /* dark mode */
 
 #dark-mode{

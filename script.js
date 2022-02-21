@@ -15,52 +15,74 @@ const showComponent=document.querySelectorAll(".show-component");
 const hamburger=document.querySelector("#hamburger");
 const navMenu=document.querySelector(".nav-menu");
 
-darkMode.addEventListener("click",()=>{
-    if(body.style.backgroundColor==="var(--dark-color)"){
-        body.style.backgroundColor="white"
+
+const lightModeTheme=()=>{
+    body.style.backgroundColor="white"
         body.style.color="var(--dark-color)"
         darkMode.innerText="dark_mode"
         header.style.backgroundColor="white"
         logoTitle.style.color="var(--dark-color)"
-        listTitle.style.color="white"
-        homeIcon.style.color="var(--dark-color)"
+        // listTitle.style.color="white"
+        // homeIcon.style.color="var(--dark-color)"
         for(let i=0; i<showComponent.length;i++){
             showComponent[i].style.backgroundColor="var(--accent-color)"
         }
         for(let i=0;i<componentLink.length; i++){
             componentLink[i].style.color="var(--dark-color)"
         }
-        
-    }else{
-        body.style.backgroundColor="var(--dark-color)"
-        body.style.color="white"
-        darkMode.innerText="light_mode"
-        header.style.backgroundColor="var(--dark-color)"
-        logoTitle.style.color="white"
-        homeIcon.style.color="white"
-        listTitle.style.color="var(--dark-color)"
-        for(let i=0; i<showComponent.length;i++){
-            showComponent[i].style.backgroundColor="var(--show-component-dark)"
-        }
-        for(let i=0;i<componentLink.length; i++){
-            componentLink[i].style.color="white"
 
-        }
+}
+
+const darkModeTheme=()=>{
+    body.style.backgroundColor="var(--dark-color)"
+    body.style.color="white"
+    darkMode.innerText="light_mode"
+    header.style.backgroundColor="var(--dark-color)"
+    logoTitle.style.color="white"
+    // homeIcon.style.color="white"
+    // listTitle.style.color="var(--dark-color)"
+    for(let i=0; i<showComponent.length;i++){
+        showComponent[i].style.backgroundColor="var(--show-component-dark)"
+    }
+    for(let i=0;i<componentLink.length; i++){
+        componentLink[i].style.color="white"
+
+    }
+}
+
+darkMode.addEventListener("click",()=>{
+    localStorage.setItem("dark-theme",darkMode.checked);
+    
+    if(body.style.backgroundColor==="var(--dark-color)"){
+        lightModeTheme()        
+    }else{
+        darkModeTheme()
         
+    }
+    
+})
+
+window.addEventListener("load",(event)=>{
+    if (localStorage.getItem("dark-theme") =="true"){
+        darkMode.checked=true;
+        darkModeTheme()
+        console.log("dark")
+    }else{
+        console.log("load")
+        darkMode.checked=false;
+        lightModeTheme()
     }
 })
 
 
 
-
-
-hamburger.addEventListener("click",()=>{
-    if(navMenu.style.left === "0px"){
-        navMenu.style.left = "-100%";
-        hamburger.innerText="menu";
-    }else{
-        navMenu.style.left = "0px"
-        hamburger.innerText="close";
-    } 
-})
+// hamburger.addEventListener("click",()=>{
+    //     if(navMenu.style.left === "0px"){
+        //         navMenu.style.left = "-100%";
+        //         hamburger.innerText="menu";
+        //     }else{
+            //         navMenu.style.left = "0px"
+            //         hamburger.innerText="close";
+            //     } 
+// })
 
