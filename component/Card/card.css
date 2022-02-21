@@ -5,8 +5,10 @@
   position: relative;
   background-color:white;
   width:15rem;
-  
 
+}
+.card-title,.card-description,.price{
+  color:var(--black-color)
 }
 
 .card-subtitle {
@@ -156,18 +158,13 @@
 .horizontal{
   width: 24rem;
 }
-.bg{
+.card-bg{
   display: flex;
   flex-direction: row;
   height: 200px;
-  /* padding-right:1rem ; */
-  /* width: 500px; */
-  
 }
 .horizontal-body{
   background-color:white;
-  /* margin-left: auto; */
- 
 }
 .btn-group{
   display:flex;

@@ -4,30 +4,125 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/reset.css" />
-    <link rel="stylesheet" href="/css/variable.css" />
-    <link rel="stylesheet" href="/component/Slider/slider.css" />
-    <link rel="stylesheet" href="/css/utility.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"> 
+    <link rel="stylesheet" href="/css/components.css">
     <title>Slider</title>
   </head>
   <body>
-    <div class="center">
-      <div class="slider-container">
-        <datalist id="tickmarks">
-          <option value="0" label="0%"></option>
-          <option value="10"></option>
-          <option value="20"></option>
-          <option value="30"></option>
-          <option value="40"></option>
-          <option value="50" label="50%"></option>
-          <option value="60"></option>
-          <option value="70"></option>
-          <option value="80"></option>
-          <option value="90"></option>
-          <option value="100" label="100%"></option>
-        </datalist>
-        <input list="tickmarks" type="range" min="0" max="100" value="50" />
+    <header class="header">
+      <nav class="navbar"> 
+      <a class="logo-title" href="/index.html">
+              <h1 class="black fs-2">Create <span class="header-ui">ui</span></h1>
+          </a>
+          <ul class="nav-list">
+              <span id="hamburger" class="material-icons">
+                  menu
+                  </span>
+                  <a id="home-icon" href="/index.html">
+                      <span class="material-icons">
+                          home
+                      </span>
+                  </a>
+                  <span  id="dark-mode" class="material-icons">
+                    dark_mode
+                    </span> 
+              <li><a href="https://github.com/deepak29-git/Create-ui"><img class="social-icon github-icon" src="/assets/img/github.png" alt=""></a></li>
+          </ul>
+      </nav>
+  </header>
+  <!-- mobile view -->
+  <div class="nav-menu">
+      <div class="list-wrapper">
+          <ul class="list-group">
+              <h4 class="list-title mb-1 ml-1 mt-2">Get Started</h4>           
+              <li class="list-item"><a class="component-link" href="/get-started/introduction.html">Introduction</a></li>
+              <li class="list-item"><a class="component-link " href="/component/Text/text.html">Typography</a></li>
+              <li class="list-item"><a class="component-link " href="/component/Color/color.html">Color</a></li>
+              <h4 class="list-title mb-1 ml-1 mt-2">Components</h4>
+              <li class="list-item"><a class="component-link" href="/component/Avatar/avatar.html">Avatar</a></li>
+              <li class="list-item"><a class="component-link" href="/component/Alert/alert.html">Alert</a></li>
+              <li class="list-item"><a class="component-link" href="/component/Badge/badge.html">Bedge</a></li>
+              <li class="list-item"><a class="component-link" href="/component/Button/button.html">Button</a></li>
+              <li class="list-item"><a class="component-link" href="/component/Card/card.html">Card</a></li>
+              <li class="list-item"><a class="component-link" href="/component/Image/image.html">Image</a></li>
+              <li class="list-item"><a class="component-link" href="/component/Input/input.html">Input</a></li>
+              <li class="list-item"><a class="component-link" href="/component/Text/text.html">Text Utility</a></li>
+              <li class="list-item"><a class="component-link" href="/component/List/list.html">List</a></li>
+              <li class="list-item"><a class="component-link" href="/component/Navigation/navigation.html">Navigation</a></li>
+              <li class="list-item"><a class="component-link" href="/component/Modal/modal.html">Modal</a></li>
+              <li class="list-item"><a class="component-link" href="/component/Rating/rating.html">Rating</a></li>
+              <li class="list-item"><a class="component-link" href="/component/Snackbar/snackbar.html">Snackbar</a></li>
+              <li class="list-item"><a class="component-link" href="/component/Grid/grid.html">Grid</a></li>
+              <li class="list-item"><a class="component-link" href="/component/Submenu/submenu.html">Submenu</a></li>
+              <li class="list-item"><a class="component-link" href="/component/Hamburger/hamburger.html">Hamburger</a></li>
+              <li class="list-item"><a class="component-link active-tab" href="/component/Slider/slider.html">Slider</a></li>
+          </ul>
       </div>
-    </div>
+  </div>
+      <!-- sidebar -->
+      <div class="intro-container mt-5 ">
+      <aside class="sidebar">
+          <h4 class="list-title mb-1 ml-1 mt-2">Get Started</h4>
+              <hr>
+              <ul class="list-group">
+                  <li class="list-item"><a class="component-link" href="/get-started/introduction.html">Introduction</a></li>
+                  <li class="list-item"><a class="component-link " href="/component/Text/text.html">Typography</a></li>
+                  <li class="list-item"><a class="component-link " href="/component/Color/color.html">Color</a></li>
+              </ul>
+          <h4 class="list-title mb-1 ml-1 mt-2">Components</h4>
+          <hr>
+          <ul class="list-group">
+                  <li class="list-item"><a class="component-link" href="/component/Avatar/avatar.html">Avatar</a></li>
+                  <li class="list-item"><a class="component-link" href="/component/Alert/alert.html">Alert</a></li>
+                  <li class="list-item"><a class="component-link" href="/component/Badge/badge.html">Bedge</a></li>
+                  <li class="list-item"><a class="component-link" href="/component/Button/button.html">Button</a></li>
+                  <li class="list-item"><a class="component-link" href="/component/Card/card.html">Card</a></li>
+                  <li class="list-item"><a class="component-link" href="/component/Image/image.html">Image</a></li>
+                  <li class="list-item"><a class="component-link" href="/component/Input/input.html">Input</a></li>
+                  <li class="list-item"><a class="component-link" href="/component/List/list.html">List</a></li>
+                  <li class="list-item"><a class="component-link" href="/component/Navigation/navigation.html">Navigation</a></li>
+                  <li class="list-item"><a class="component-link" href="/component/Modal/modal.html">Modal</a></li>
+                  <li class="list-item"><a class="component-link" href="/component/Rating/rating.html">Rating</a></li>
+                  <li class="list-item"><a class="component-link" href="/component/Snackbar/snackbar.html">Snackbar</a></li>
+                  <li class="list-item"><a class="component-link" href="/component/Grid/grid.html">Grid</a></li>
+                  <li class="list-item"><a class="component-link" href="/component/Submenu/submenu.html">Submenu</a></li>
+                  <li class="list-item"><a class="component-link" href="/component/Hamburger/hamburger.html">Hamburger</a></li>
+                  <li class="list-item"><a class="component-link active-tab" href="/component/Slider/slider.html">Slider</a></li>
+              </ul>
+          </aside>
+ <!-- main section -->
+ <main class="main-container plr-1 mt-4">
+  <h1 class="mb-2">Slider</h1>
+  <p class="mb-2">Sliders allow users to view and select a value (or range) from the range along a bar. They are ideal for adjusting settings such as volume and brightness, or for applying image filters.</p>
+  <hr class="mb-2">
+      <p class="fs-3 black mb-2">Basic Slider</p>
+      <p class="mb-2">Create Ui provides basic slider that range starts from 0 to 100. </p>
+      <section class="show-component mb-2 ">
+        <div class="slider-container">
+          <datalist id="tickmarks">
+            <option value="0" label="0%"></option>
+            <option value="10"></option>
+            <option value="20"></option>
+            <option value="30"></option>
+            <option value="40"></option>
+            <option value="50" label="50%"></option>
+            <option value="60"></option>
+            <option value="70"></option>
+            <option value="80"></option>
+            <option value="90"></option>
+            <option value="100" label="100%"></option>
+          </datalist>
+          <input list="tickmarks" type="range" min="0" max="100" value="50" step="10" />
+        </div>  
+      </section>
+      <iframe
+      src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=471&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2509%2509%253Cdiv%2520class%253D%2522slider-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdatalist%2520id%253D%2522tickmarks%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%25220%2522%2520label%253D%25220%2525%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%252210%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%252220%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%252230%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%252240%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%252250%2522%2520label%253D%252250%2525%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%252260%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%252270%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%252280%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%252290%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522100%2522%2520label%253D%2522100%2525%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdatalist%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520list%253D%2522tickmarks%2522%2520type%253D%2522range%2522%2520min%253D%25220%2522%2520max%253D%2522100%2522%2520value%253D%252250%2522%2520step%253D%252210%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520"
+      style="width: 100%; height: 355px; border:0; transform: scale(1); overflow:hidden;"
+      sandbox="allow-scripts allow-same-origin">
+    </iframe>
+          <hr class="mb-2 mt-2">
+</main>
+<script src="/script.js"></script>
   </body>
 </html>

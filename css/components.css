@@ -18,6 +18,8 @@
 @import url('/component/Rating/rating.css'); 
 @import url('/component/Grid/grid.css'); 
 @import url('/component/Submenu/submenu.css'); 
+@import url('/component/Slider/slider.css'); 
+@import url('/component/Hamburger/hamburger.css'); 
 @import url('/css/main.css');
 @import url('/css/navbar.css');
 @import url('/css/sidebar.css');

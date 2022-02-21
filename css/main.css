@@ -48,6 +48,7 @@ a {
   gap: 20px;
 }
 
+
 .show-code {
   display: flex;
   flex-wrap: wrap;
@@ -73,18 +74,28 @@ a {
   align-items: center;
 }
 
-.footer-section{
-  background-color: var(--primary-color);
-  padding: 1rem 0;
-}
 
 .social-media{
   cursor:pointer;
   display: flex;
   gap: 1rem;
   justify-content:center;
+
+}
+.github-icon{
+  background-color:var(--white-color);
 }
 
+.footer-icon{
+  background-color:var(--white-color);
+}
+
+
+/* dark mode */
+
+#dark-mode{
+  cursor: pointer;
+}
 
 @media only screen and (max-width:500px){
     html{

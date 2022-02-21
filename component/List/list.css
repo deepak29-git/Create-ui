@@ -6,12 +6,12 @@
     list-style: none;
 }
 .normal-list{
-    background-color: var(--white-color);
+    background-color: var(--grey-color);
     width: 12.5rem;
 }
 .list-title{
     margin: 1rem;
-    color:var(--black-color)
+
 }
 .list{
     cursor: pointer;
@@ -29,7 +29,7 @@
 
 .list-container{
     width:31.25rem;
-    background-color:white;
+    background-color:var(--grey-color);
  
 }
 .notification-icon{
