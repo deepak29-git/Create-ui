@@ -17,12 +17,12 @@ const navMenu=document.querySelector(".nav-menu");
 
 darkMode.addEventListener("click",()=>{
     if(body.style.backgroundColor==="var(--dark-color)"){
-        body.style.backgroundColor="white"
+        body.style.backgroundColor="var(--white-color)"
         body.style.color="var(--dark-color)"
         darkMode.innerText="dark_mode"
-        header.style.backgroundColor="white"
+        header.style.backgroundColor="var(--white-color)"
         logoTitle.style.color="var(--dark-color)"
-        listTitle.style.color="white"
+        listTitle.style.color="var(--white-color)"
         homeIcon.style.color="var(--dark-color)"
         for(let i=0; i<showComponent.length;i++){
             showComponent[i].style.backgroundColor="var(--accent-color)"
@@ -33,17 +33,17 @@ darkMode.addEventListener("click",()=>{
         
     }else{
         body.style.backgroundColor="var(--dark-color)"
-        body.style.color="white"
+        body.style.color="var(--white-color)"
         darkMode.innerText="light_mode"
         header.style.backgroundColor="var(--dark-color)"
-        logoTitle.style.color="white"
-        homeIcon.style.color="white"
+        logoTitle.style.color="var(--white-color)"
+        homeIcon.style.color="var(--white-color)"
         listTitle.style.color="var(--dark-color)"
         for(let i=0; i<showComponent.length;i++){
             showComponent[i].style.backgroundColor="var(--show-component-dark)"
         }
         for(let i=0;i<componentLink.length; i++){
-            componentLink[i].style.color="white"
+            componentLink[i].style.color="var(--white-color)"
 
         }
         
