@@ -22,8 +22,8 @@ const lightModeTheme=()=>{
         darkMode.innerText="dark_mode"
         header.style.backgroundColor="white"
         logoTitle.style.color="var(--dark-color)"
-        // listTitle.style.color="white"
-        // homeIcon.style.color="var(--dark-color)"
+        listTitle.style.color="white"
+        homeIcon.style.color="var(--dark-color)"
         for(let i=0; i<showComponent.length;i++){
             showComponent[i].style.backgroundColor="var(--accent-color)"
         }
@@ -39,8 +39,8 @@ const darkModeTheme=()=>{
     darkMode.innerText="light_mode"
     header.style.backgroundColor="var(--dark-color)"
     logoTitle.style.color="white"
-    // homeIcon.style.color="white"
-    // listTitle.style.color="var(--dark-color)"
+    homeIcon.style.color="white"
+    listTitle.style.color="var(--dark-color)"
     for(let i=0; i<showComponent.length;i++){
         showComponent[i].style.backgroundColor="var(--show-component-dark)"
     }
@@ -66,9 +66,7 @@ window.addEventListener("load",(event)=>{
     if (localStorage.getItem("dark-theme") =="true"){
         darkMode.checked=true;
         darkModeTheme()
-        console.log("dark")
     }else{
-        console.log("load")
         darkMode.checked=false;
         lightModeTheme()
     }
@@ -76,13 +74,13 @@ window.addEventListener("load",(event)=>{
 
 
 
-// hamburger.addEventListener("click",()=>{
-    //     if(navMenu.style.left === "0px"){
-        //         navMenu.style.left = "-100%";
-        //         hamburger.innerText="menu";
-        //     }else{
-            //         navMenu.style.left = "0px"
-            //         hamburger.innerText="close";
-            //     } 
-// })
+hamburger.addEventListener("click",()=>{
+    if(navMenu.style.left === "0px"){
+            navMenu.style.left = "-100%";
+            hamburger.innerText="menu";
+    }else{
+            navMenu.style.left = "0px"
+            hamburger.innerText="close";
+        } 
+})
 
