@@ -13,28 +13,26 @@
   <body>
     <header class="header">
         <nav class="navbar"> 
-        <a class="logo-title" href="/index.html">
+            <a class="logo-title" href="/index.html">
                 <h1 class="black fs-2">Create <span class="header-ui">ui</span></h1>
             </a>
-            <ul class="nav-list">
+            <div class="nav-list">
                 <span id="hamburger" class="material-icons">
                     menu
+                </span>
+                <a id="home-icon" href="/index.html">
+                    <span class="material-icons">
+                        home
                     </span>
-                    <a id="home-icon" href="/index.html">
-                        <span class="material-icons">
-                            home
-                        </span>
-                    </a>
-                    <span  id="dark-mode" class="material-icons">
-                        dark_mode
-                        </span>   
-                <li><a href="https://github.com/deepak29-git/Create-ui"><img class="social-icon github-icon" src="/assets/img/github.png" alt=""></a></li>
-            </ul>
+                </a>
+                <input type="checkbox" class="checkbox" id="dark-mode">  
+                <label id="check-label" class="material-icons" for="dark-mode">dark_mode</label>
+            </div>
         </nav>
     </header>
         <div class="nav-menu">
             <div class="list-wrapper">
-                <ul class="list-group">
+                <ul class="list-group center-text">
                     <h4 class="list-title mb-1 ml-1 mt-2">Get Started</h4>           
                     <li class="list-item"><a class="component-link active-tab" href="#">Introduction</a></li>
                     <li class="list-item"><a class="component-link " href="/component/Text/text.html">Typography</a></li>

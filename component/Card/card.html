@@ -14,23 +14,21 @@
   <body>
     <header class="header">
       <nav class="navbar"> 
-      <a class="logo-title" href="/index.html">
+          <a class="logo-title" href="/index.html">
               <h1 class="black fs-2">Create <span class="header-ui">ui</span></h1>
           </a>
-          <ul class="nav-list">
+          <div class="nav-list">
               <span id="hamburger" class="material-icons">
                   menu
+              </span>
+              <a id="home-icon" href="/index.html">
+                  <span class="material-icons">
+                      home
                   </span>
-                  <a id="home-icon" href="/index.html">
-                    <span class="material-icons">
-                        home
-                    </span>
-                </a>
-                <span  id="dark-mode" class="material-icons">
-                  dark_mode
-                  </span> 
-              <li><a href="https://github.com/deepak29-git/Create-ui"><img class="social-icon github-icon" src="/assets/img/github.png" alt=""></a></li>
-          </ul>
+              </a>
+              <input type="checkbox" class="checkbox" id="dark-mode">  
+              <label id="check-label" class="material-icons" for="dark-mode">dark_mode</label>
+          </div>
       </nav>
   </header>
   <!-- mobile view -->

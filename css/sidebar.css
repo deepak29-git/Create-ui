@@ -6,10 +6,7 @@
     flex-grow: 1;
     margin-left:19rem;
 }
-.list-wrapper{
-    display:flex;
-    justify-content:center;
-}
+
 
 .component-link{
     color:var(--black-color);
@@ -29,10 +26,6 @@
    color:var(--primary-color);
 }
 
-
-.component-link:hover{
-    background-color: var(--light-grey)
-}
 
 #hamburger{
     display: none;
