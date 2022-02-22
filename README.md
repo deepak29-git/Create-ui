@@ -2,7 +2,7 @@
 
 Create is a component library based on flex and grid to build responsive UI faster.
 
-![create-ui](/assets/img/create-ui.png)
+![image](https://user-images.githubusercontent.com/88363801/155087322-2c0f0f88-04d4-4847-9a17-17dd958f1233.png)
 
 ## [Live Link](https://create-ui.netlify.app/)
 
@@ -107,4 +107,7 @@ Create Ui uses material icons. Copy the given link and paste it in the <head> ta
 
 The documentation resides in the [Indroduction](https://github.com/deepak29-git/Create-ui/tree/dev/get-started) directory. Detailed documentation can be found [here](https://create-ui.netlify.app/).
 
-https://user-images.githubusercontent.com/88363801/154956881-7e3c7bbc-f50f-4de1-bd21-61ab3b25e92e.mp4
+
+https://user-images.githubusercontent.com/88363801/155088331-8de21c96-ccb8-4a4d-9bc5-76146f7b558c.mp4
+
+
