@@ -9,26 +9,30 @@ const body=document.querySelector("body");
 const header=document.querySelector(".header")
 const logoTitle=document.querySelector(".logo-title")
 const componentLink=document.querySelectorAll(".component-link")
-const listTitle=document.querySelector(".list-title");
+const listTitle=document.querySelectorAll(".list-title");
 const homeIcon=document.querySelector("#home-icon")
 const showComponent=document.querySelectorAll(".show-component");
 const hamburger=document.querySelector("#hamburger");
 const navMenu=document.querySelector(".nav-menu");
+const mobileList=document.querySelectorAll(".mobile-list");
 
-
+console.log(listTitle)
 const lightModeTheme=()=>{
     body.style.backgroundColor="white"
         body.style.color="var(--dark-color)"
         darkMode.innerText="dark_mode"
         header.style.backgroundColor="white"
         logoTitle.style.color="var(--dark-color)"
-        listTitle.style.color="white"
+        for(let i=0;i<listTitle.length; i++){
+            listTitle[i].style.color="black";
+        }
         homeIcon.style.color="var(--dark-color)"
+        navMenu.style.backgroundColor="white"
         for(let i=0; i<showComponent.length;i++){
             showComponent[i].style.backgroundColor="var(--accent-color)"
         }
         for(let i=0;i<componentLink.length; i++){
-            componentLink[i].style.color="var(--dark-color)"
+            componentLink[i].style.color="var(--black-color)"
         }
 
 }
@@ -40,13 +44,16 @@ const darkModeTheme=()=>{
     header.style.backgroundColor="var(--dark-color)"
     logoTitle.style.color="white"
     homeIcon.style.color="white"
-    listTitle.style.color="var(--dark-color)"
+    for(let i=0;i<listTitle.length; i++){
+        listTitle[i].style.color="white";
+    }
+    
+    navMenu.style.backgroundColor="var(--dark-color)"
     for(let i=0; i<showComponent.length;i++){
         showComponent[i].style.backgroundColor="var(--show-component-dark)"
     }
     for(let i=0;i<componentLink.length; i++){
         componentLink[i].style.color="white"
-
     }
 }
 
@@ -78,6 +85,7 @@ hamburger.addEventListener("click",()=>{
     if(navMenu.style.left === "0px"){
             navMenu.style.left = "-100%";
             hamburger.innerText="menu";
+    
     }else{
             navMenu.style.left = "0px"
             hamburger.innerText="close";
