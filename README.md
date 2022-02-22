@@ -1,6 +1,6 @@
 [Create ui | Component Library](https://create-ui.netlify.app/)
 
-Create  is a component library based on flex and grid to build responsive UI faster.
+Create is a component library based on flex and grid to build responsive UI faster.
 
 ![create-ui](/assets/img/create-ui.png)
 
@@ -8,7 +8,7 @@ Create  is a component library based on flex and grid to build responsive UI fas
 
 ## Installation Guide
 
-In order to use the Create ui library in your  project, copy the below link and put it inside the head tag of your html file.
+In order to use the Create ui library in your project, copy the below link and put it inside the head tag of your html file.
 
 ```
 <link rel="stylesheet" href="https://create-ui.netlify.app/css/components.css" />
@@ -19,9 +19,11 @@ Create Ui uses material icons. Copy the given link and paste it in the <head> ta
 ```
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 ```
+
 ## What's included?
 
 ## Helpers
+
 - [Typography](https://create-ui.netlify.app/component/text/text)
   - Heading
   - Text Typography
@@ -35,7 +37,9 @@ Create Ui uses material icons. Copy the given link and paste it in the <head> ta
   - Success Color
   - warning Color
   - Active Color
+
 ### Components
+
 - [Avatar](https://create-ui.netlify.app/component/avatar/avatar)
   - Profile Avatar
   - Size Avatar
@@ -100,13 +104,7 @@ Create Ui uses material icons. Copy the given link and paste it in the <head> ta
   - Basic Slider
 
 ## Documentation
+
 The documentation resides in the [Indroduction](https://github.com/deepak29-git/Create-ui/tree/dev/get-started) directory. Detailed documentation can be found [here](https://create-ui.netlify.app/).
 
-
-
-
-
 https://user-images.githubusercontent.com/88363801/154956881-7e3c7bbc-f50f-4de1-bd21-61ab3b25e92e.mp4
-
-
-

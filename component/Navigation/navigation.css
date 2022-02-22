@@ -1,87 +1,83 @@
-.ecom-nav{
-    display:flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap:2rem;
+.ecom-nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
-
-.ecom-group{
-    display: flex;
-    gap: 1rem;
-    align-items: center;
+.ecom-group {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
 }
 
-.input-parent{
-    display: flex;
-    position: relative;
-    width: 400px;
+.input-parent {
+  display: flex;
+  position: relative;
+  width: 400px;
 }
 
-.search{
-    position: absolute;
-    top: 15px;
-    left:15px;
+.search {
+  position: absolute;
+  top: 15px;
+  left: 15px;
 }
 
-.ecom-input{
-    padding:0.8rem 2.5rem ;
-    border-radius: 5px;
-    border: 1px solid black;
-    outline:none;
-    font-size: unset;
-    flex-grow: 1;
+.ecom-input {
+  padding: 0.8rem 2.5rem;
+  border-radius: 5px;
+  border: 1px solid black;
+  outline: none;
+  font-size: unset;
+  flex-grow: 1;
 }
 
-.ecom-input:focus{
-    border: 1px solid var(--grey-color);
+.ecom-input:focus {
+  border: 1px solid var(--grey-color);
 }
 
-
-.login-btn{
-    border:none;
-    padding:0.8rem 1.5rem;
-    background-color:var(--grey-color);
-    color:var(--white-color);
-    font-weight:800;
-    font-size:1rem;
-    letter-spacing:1px;
-    cursor: pointer;
+.login-btn {
+  border: none;
+  padding: 0.8rem 1.5rem;
+  background-color: var(--grey-color);
+  color: var(--white-color);
+  font-weight: 800;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  cursor: pointer;
 }
 
-#heart,#shopping-cart{
-    font-size:2rem;
-    
+#heart,
+#shopping-cart {
+  font-size: 2rem;
 }
-header{
-    width:100%;
-}
-
-
-.simple-nav{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    padding: 1rem;
-    background-color:var(--primary-color)
-
+header {
+  width: 100%;
 }
 
-.nav-group{
-    display: flex;
-    list-style: none;
-    align-items: center;
-    gap: 1rem;
-    margin-left: auto;
-    flex-wrap: wrap;
+.simple-nav {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--primary-color);
 }
 
-.simple-navlist{
-    border-radius: 10px;
-    padding: 1rem;
-    color:var(--black-color)
+.nav-group {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 1rem;
+  margin-left: auto;
+  flex-wrap: wrap;
 }
 
-.simple-navlist:hover{
-    background-color: var(--light-grey)
+.simple-navlist {
+  border-radius: 10px;
+  padding: 1rem;
+  color: var(--black-color);
+}
+
+.simple-navlist:hover {
+  background-color: var(--light-grey);
 }

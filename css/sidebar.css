@@ -1,81 +1,76 @@
-
-.intro-container{
-    display:flex;
+.intro-container {
+  display: flex;
 }
-.main-container{
-    flex-grow: 1;
-    margin-left:19rem;
-}
-
-
-.component-link{
-    color:var(--black-color);
-    border-radius:5px;
-    padding: 0.8rem;
-    width: 250px;
-  }
-.sidebar{
-    position:fixed;
-    overflow-y:scroll;
-    height: 80vh;
-    width: 18rem;
-    flex-shrink: 0;
-}
-.active-tab{
-   font-weight: 600;
-   color:var(--primary-color);
+.main-container {
+  flex-grow: 1;
+  margin-left: 19rem;
 }
 
-#hamburger{
-    display: none;
+.component-link {
+  color: var(--black-color);
+  border-radius: 5px;
+  padding: 0.8rem;
+  width: 250px;
 }
-.list-group{
-    color: var(--white-color);
+.sidebar {
+  position: fixed;
+  overflow-y: scroll;
+  height: 80vh;
+  width: 18rem;
+  flex-shrink: 0;
 }
-.nav-menu{
-    position: fixed;
-    left: -100%;
-    height: 100%;
-    z-index: 2;
-    width: 100%;
-    overflow:scroll;
-    padding-top:4rem;
-    padding-bottom: 5rem;
-    color:var(--white-color);
-    background-color: var(--black-color);
-    transition: all 0.5s ease-in-out;
+.active-tab {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+#hamburger {
+  display: none;
+}
+.list-group {
+  color: var(--white-color);
+}
+.nav-menu {
+  position: fixed;
+  left: -100%;
+  height: 100%;
+  z-index: 2;
+  width: 100%;
+  overflow: scroll;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  color: var(--white-color);
+  background-color: var(--black-color);
+  transition: all 0.5s ease-in-out;
 }
 
 /* media query */
- @media only screen and (max-width: 800px){
-         .sidebar{
-            display:none;
-         }
-         
+@media only screen and (max-width: 800px) {
+  .sidebar {
+    display: none;
+  }
 
-        #hamburger{
-            display: block;
-        }
-         .main-container{
-             margin-left: 0rem;
-             margin-right: 0rem;
-        }
-    
-        .component-link{
-            color: var(--white-color);
-    
-        }
-        .list-group{
-            color: var(--black-color);
-        }
-        .list-title{
-            color:var(--white-color);
-        }
+  #hamburger {
+    display: block;
+  }
+  .main-container {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
 
- }
+  .component-link {
+    color: var(--white-color);
+  }
+  .list-group {
+    color: var(--black-color);
+  }
+  .list-title {
+    color: var(--white-color);
+  }
+}
 
- @media only screen and (min-width:800px){
-     .nav-menu{
-         display: none;
-     }
- }
+@media only screen and (min-width: 800px) {
+  .nav-menu {
+    display: none;
+  }
+}

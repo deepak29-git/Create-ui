@@ -1,8 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    max-inline-size: 100%;
-    font-family: 'Ubuntu', sans-serif;
-    block-size: auto;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-inline-size: 100%;
+  font-family: "Ubuntu", sans-serif;
+  block-size: auto;
 }

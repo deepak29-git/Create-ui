@@ -23,49 +23,49 @@
   display: flex;
   justify-content: flex-end;
   gap: 1rem;
-  padding:1rem;
+  padding: 1rem;
   flex-wrap: wrap;
 }
 
-.modal-header{
-    position: relative;
+.modal-header {
+  position: relative;
 }
 
-.close-icon{
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size:1.5rem;
-    cursor: pointer;
-    padding:0.5rem;
-    border-radius:50%;
+.close-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
 }
 
-.close:hover{
-    background-color: var(--secondary-hover)
+.close:hover {
+  background-color: var(--secondary-hover);
 }
-.save-btn{
-    padding: 0.8rem 0.8rem;
-    background-color: var(--primary-color);
-    color: var(--white-color);
-    border:none;
-    border-radius: 5px;
-    cursor:pointer;
-}
-
-.save-btn:hover{
-    background-color: var(--primary-hover);
+.save-btn {
+  padding: 0.8rem 0.8rem;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.close-btn{
-    padding: 0.8rem 0.8rem;
-    background-color: var(--secondary-color);
-    color: var(--black-color);
-    border:none;
-    border-radius: 5px;
-    cursor:pointer;
+.save-btn:hover {
+  background-color: var(--primary-hover);
 }
 
-.close-btn:hover{
-    background-color: var(--secondary-hover)
+.close-btn {
+  padding: 0.8rem 0.8rem;
+  background-color: var(--secondary-color);
+  color: var(--black-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  background-color: var(--secondary-hover);
 }

@@ -2,77 +2,74 @@
 
 /* basic badge */
 
-.badge-container{
-    margin: auto;
-    width: 31.25rem;
+.badge-container {
+  margin: auto;
+  width: 31.25rem;
 }
 
-
-.box{
-    height:6rem;
-    width: 31.25rem;
-    background-color: var(--secondary-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap:1.25rem;
-    border-radius:0.313rem;
-
+.box {
+  height: 6rem;
+  width: 31.25rem;
+  background-color: var(--secondary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  border-radius: 0.313rem;
 }
 
-.icon{
-    height:2rem;
-    width: 2rem;
+.icon {
+  height: 2rem;
+  width: 2rem;
 }
 
-.badge{
-    position: relative;
+.badge {
+  position: relative;
 }
 
-.number{
-    position: absolute; 
-    top: -10px;
-    right: -10px;
-    border-radius:50%;
-    padding: 0.188rem 0.438rem;
-    background-color:var(--danger-color);
-    color: var(--white-color);
+.number {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  border-radius: 50%;
+  padding: 0.188rem 0.438rem;
+  background-color: var(--danger-color);
+  color: var(--white-color);
 }
 
 /* color badge */
 
 /* profile badge */
 
-.online{
-    background-color:var(--success-color);
-    height:0.8rem;
-    width:0.8rem;
-    border-radius:50%;
-    position: absolute;
-    bottom: 10px;
-    right: 5px;
-    border:1px solid var(--black-color);
-
+.online {
+  background-color: var(--success-color);
+  height: 0.8rem;
+  width: 0.8rem;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+  border: 1px solid var(--black-color);
 }
 
-.offline{
-    background-color: var(--grey-color);
-    height:0.7rem;
-    width:0.7rem;
-    border-radius:50%;
-    position: absolute;
-    bottom: 10px;
-    border:1px solid var(--black-color);
-    right: 5px;
+.offline {
+  background-color: var(--grey-color);
+  height: 0.7rem;
+  width: 0.7rem;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 10px;
+  border: 1px solid var(--black-color);
+  right: 5px;
 }
 
-.dnd{
-    background-color: var(--danger-color);
-    height:0.7rem;
-    width:0.7rem;
-    border-radius:50%;
-    position: absolute;
-    border:1px solid var(--black-color);
-    bottom: 10px;
-    right: 5px;
+.dnd {
+  background-color: var(--danger-color);
+  height: 0.7rem;
+  width: 0.7rem;
+  border-radius: 50%;
+  position: absolute;
+  border: 1px solid var(--black-color);
+  bottom: 10px;
+  right: 5px;
 }

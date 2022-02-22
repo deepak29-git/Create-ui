@@ -36,7 +36,6 @@
   padding: 10px;
 }
 
-
 .sub-sublist {
   display: none;
   position: absolute;
@@ -58,5 +57,4 @@
 .service-anchor {
   display: flex;
   align-items: center;
-  
 }

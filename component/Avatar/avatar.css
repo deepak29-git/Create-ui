@@ -2,33 +2,31 @@
 
 /* image avatar */
 
-.avatar{
-    border-radius:50%;
-    height:3.125rem;
-    width:3.125rem;
+.avatar {
+  border-radius: 50%;
+  height: 3.125rem;
+  width: 3.125rem;
 }
 
 /* sizes avatar */
 
-.sm{
-    height:1.5rem;
-    width: 1.5rem;
+.sm {
+  height: 1.5rem;
+  width: 1.5rem;
 }
 
-.md{
-    height:2rem;
-    width: 2rem;
+.md {
+  height: 2rem;
+  width: 2rem;
 }
 
-.lg{
-    height:3rem;
-    width: 3rem;
-
+.lg {
+  height: 3rem;
+  width: 3rem;
 }
-
 
 /* square avatar */
 
-.square{
-    border-radius: 0.313rem;
+.square {
+  border-radius: 0.313rem;
 }

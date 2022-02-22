@@ -1,64 +1,58 @@
 /* rating css start */
 
-
 /* basic rating */
-.rating{
-   cursor: pointer;
-   color:var(--grey-color); 
-
+.rating {
+  cursor: pointer;
+  color: var(--grey-color);
 }
-.rating:hover{
-    color: var(--warning-color);
+.rating:hover {
+  color: var(--warning-color);
 }
-
 
 /* star rating */
 
-.star{
-    color:var(--warning-color); 
- }
- .star:hover{
-     color: var(--warning-hover);
- }
- 
- /* size rating */
-
- .mini{
-    font-size:2rem;
- }
- #small{
-    font-size:2.5rem;
- }
-
-#medium{
-    font-size:3rem;
+.star {
+  color: var(--warning-color);
 }
-#large{
-    font-size:3.5rem;
+.star:hover {
+  color: var(--warning-hover);
 }
-#huge{
-    font-size:4rem;
+
+/* size rating */
+
+.mini {
+  font-size: 2rem;
+}
+#small {
+  font-size: 2.5rem;
+}
+
+#medium {
+  font-size: 3rem;
+}
+#large {
+  font-size: 3.5rem;
+}
+#huge {
+  font-size: 4rem;
 }
 #massive {
-    font-size:8rem;
+  font-size: 8rem;
 }
 
-.rating-wrapper{
-    display: flex;
-    gap:3rem;
-    height:7rem;
-    flex-wrap: wrap;
+.rating-wrapper {
+  display: flex;
+  gap: 3rem;
+  height: 7rem;
+  flex-wrap: wrap;
 }
 
-#deepak{
-    font-size:5rem ;
-    color: blue;
+#deepak {
+  font-size: 5rem;
+  color: blue;
 }
-@media only screen and (max-width:500px){
-
-    .size-rating-show{
-        padding-bottom: 3.5rem;
-    }
-
-    
+@media only screen and (max-width: 500px) {
+  .size-rating-show {
+    padding-bottom: 3.5rem;
+  }
 }

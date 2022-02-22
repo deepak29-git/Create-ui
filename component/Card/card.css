@@ -3,19 +3,19 @@
 /* card with badge */
 .card {
   position: relative;
-  background-color:white;
-  width:15rem;
-
+  background-color: white;
+  width: 15rem;
 }
-.card-title,.card-description,.price{
-  color:var(--black-color)
+.card-title,
+.card-description,
+.price {
+  color: var(--black-color);
 }
 
 .card-subtitle {
   color: var(--black-color);
-  margin:0.4rem 0;
+  margin: 0.4rem 0;
 }
-
 
 .badge-icon {
   height: 2.2rem;
@@ -25,7 +25,8 @@
   left: 0;
 }
 
-.dismiss,.like-btn{
+.dismiss,
+.like-btn {
   height: 2.4rem;
   width: 2.4rem;
   position: absolute;
@@ -36,11 +37,10 @@
   border-radius: 50%;
 }
 
-.dismiss:hover,.like-btn:hover {
-  background-color:var(--light-grey)
+.dismiss:hover,
+.like-btn:hover {
+  background-color: var(--light-grey);
 }
-
-
 
 .card-img {
   border-radius: 5px;
@@ -50,12 +50,10 @@
   padding: 1rem;
 }
 
-
-
 /* ecom css */
-.ecom-card{
+.ecom-card {
   background-color: white;
-  width:15rem;
+  width: 15rem;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -63,24 +61,22 @@
   box-shadow: -8px 8px 5px rgba(0, 0, 0, 0.2);
 }
 
-.card-content{
+.card-content {
   padding: 1rem;
 }
 
-.product-image{
+.product-image {
   margin: auto;
-  height:14rem;
+  height: 14rem;
   width: 15rem;
 }
-.image{
-  height:14rem;
+.image {
+  height: 14rem;
   width: 15rem;
 }
 
-
-
-.like{
-  height:1.5rem;
+.like {
+  height: 1.5rem;
   width: 1.5rem;
   position: absolute;
   cursor: pointer;
@@ -88,8 +84,8 @@
   right: 10px;
 }
 
-.new{
-  height:2rem;
+.new {
+  height: 2rem;
   width: 2rem;
   position: absolute;
   cursor: pointer;
@@ -97,133 +93,118 @@
   top: 5px;
   left: 0px;
 }
-.rating{
-  height:1rem;
+.rating {
+  height: 1rem;
   width: 1rem;
 }
 
-.price{
+.price {
   margin: 0.5rem 0;
 }
 
-.price-before{
-  padding:0 0.3rem;  
+.price-before {
+  padding: 0 0.3rem;
 }
 
-.discount{
-  color:var(--success-color)
+.discount {
+  color: var(--success-color);
 }
 
-.add-to-cart{
-  padding:0.8rem 1rem;
-  background-color:var(--primary-color);
-  border:none;
+.add-to-cart {
+  padding: 0.8rem 1rem;
+  background-color: var(--primary-color);
+  border: none;
   color: var(--white-color);
   cursor: pointer;
 }
 
-
-
-
-
 /* card with shadow */
 
-.shadow{
+.shadow {
   box-shadow: -8px 8px 5px rgba(0, 0, 0, 0.3);
 }
 
-
-
-.text-overlay{
+.text-overlay {
   position: relative;
   opacity: 0.3;
 }
 
-.media-title{
+.media-title {
   position: absolute;
-  top:10px;
+  top: 10px;
   z-index: 2;
-  
 }
 
-
-.media-subtitle{
+.media-subtitle {
   position: absolute;
-  top:35px;
-  
+  top: 35px;
 }
-
 
 /* horizontal card */
 
-.horizontal{
+.horizontal {
   width: 24rem;
 }
-.card-bg{
+.card-bg {
   display: flex;
   flex-direction: row;
   height: 200px;
 }
-.horizontal-body{
-  background-color:white;
+.horizontal-body {
+  background-color: white;
 }
-.btn-group{
-  display:flex;
-  flex-direction:column;
+.btn-group {
+  display: flex;
+  flex-direction: column;
   gap: 0.5rem;
 }
-.discount{
-  padding:0.2rem
+.discount {
+  padding: 0.2rem;
 }
 
-.price{
-  position:relative;
-
+.price {
+  position: relative;
 }
-.line{
+.line {
   width: 45px;
-  position:absolute;
+  position: absolute;
   top: 10px;
-  left:3.5rem;
-  border-top: 1px solid var(--grey-color)
+  left: 3.5rem;
+  border-top: 1px solid var(--grey-color);
 }
-.product-img{
-  height:15rem;
-  width:10rem;  
+.product-img {
+  height: 15rem;
+  width: 10rem;
 }
 
-.cart-btn{
+.cart-btn {
   padding: 0.5rem 3rem;
   border: none;
-  color:var(--white-color);
-  background-color:var(--primary-color);
+  color: var(--white-color);
+  background-color: var(--primary-color);
   cursor: pointer;
 }
-.wishlist-btn{
+.wishlist-btn {
   padding: 0.5rem 2rem;
   border: none;
-  background-color:var(--secondary-color);
+  background-color: var(--secondary-color);
   cursor: pointer;
 }
 
-
-@media only screen and (max-width:500px){
-  .horizontal{
-    width:15rem;
+@media only screen and (max-width: 500px) {
+  .horizontal {
+    width: 15rem;
   }
-  .card-bg{
+  .card-bg {
     display: flex;
     flex-direction: column;
     width: 15rem;
-
   }
-  .horizonatal-img{
-    height:12.5rem;
-    width:15rem;
+  .horizonatal-img {
+    height: 12.5rem;
+    width: 15rem;
   }
-  .mb-view{
+  .mb-view {
     height: 100vh;
-}
-
-
+  }
 }
